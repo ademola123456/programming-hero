@@ -2,13 +2,27 @@
 import Link from "next/link";
 import Image from "next/image";
 import { openContactModal } from "@/utlis/toggleContactModal";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Thumbs, EffectFade, Autoplay, Pagination } from "swiper/modules";
 
+const images = [
+  { src: "/p1.avif", alt: "Portfolio 1" },
+  { src: "/p2.avif", alt: "Portfolio 2" },
+  { src: "/p3.avif", alt: "Portfolio 3" },
+  { src: "/p4.avif", alt: "Portfolio 4" },
+  { src: "/p5.avif", alt: "Portfolio 5" },
+  { src: "/p6.avif", alt: "Portfolio 6" },
+];
+const grid_marquee = {};
 export default function Hero() {
   return (
-    <div id="hero_header" className="hero-header section panel overflow-hidden">
-      <div className="position-absolute top-0 start-0 end-0 h-600px lg:h-screen bg-secondary dark:bg-gray-800 z-0" />
+    <div
+      id="hero_header"
+      className="hero-header section panel overflow-hidden"
+    >
+      <div className="position-absolute top-0 start-0 end-0 h-700px lg:h-screen bg-secondary dark:bg-gray-800 z-0" />
       <div
-        className="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block"
+        className="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block bg-secondary dark:bg-gray-800"
         data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 350;"
       >
         <div
@@ -156,50 +170,97 @@ export default function Hero() {
         <div className="container max-w-xl">
           <div className="section-inner panel">
             <div
-              className="vstack items-center gap-2 lg:gap-4 mt-2 sm:mt-4 lg:mt-0 mb-6 lg:mb-8 max-w-750px mx-auto text-center"
+              className="vstack items-center gap-2 lg:gap-4 mt-2 sm:mt-4 lg:mt-0 mb-6 lg:mb-8 max-w-750px mx-auto text-center "
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h2 sm:h1 lg:display-6 xl:display-4 m-0">
-                Streamlines all your <br className="d-none lg:d-block" />
-                project workflows
+                Stunning Design & Webflow <br className="d-none lg:d-block" />{" "}
+                Development for Startups
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Drag-and-drop editing helps you build them fast,
-                <br className="d-none sm:d-block" />
-                with your choice of 750+ ready-to-use, free templates.
+                Expert design and Webflow development agency to help you scale
+                to <br className="d-none sm:d-block" />
+                raise your success in digital goals.
               </p>
-              <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column">
+              <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column pb-5">
                 <Link
                   href={`/page-pricing`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
-                  Start free 14-day trial
+                  Book An intro call
                 </Link>
                 <a
                   onClick={openContactModal}
                   className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
                   data-uc-toggle=""
                 >
-                  Request a demo
+                  Our work
                 </a>
               </div>
-              <p className="text-dark dark:text-white text-opacity-70 sm:mt-1 lg:mt-0">
-                No credit card required.
-              </p>
+              <p className=""></p>
             </div>
+
             <div
-              className="hero-scene panel max-w-950px mx-auto"
+              className="hero-scene panel max-w-950px mx-auto "
               data-anime="targets: >*; scale: [0.9, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});"
             >
-              <div className="panel text-center overflow-hidden rounded-3 border border-5 border-dark dark:border-white dark:border-opacity-20">
+              <Swiper
+                modules={[Autoplay]}
+                spaceBetween={30}
+                slidesPerView={"auto"} // show multiple slides
+                loop={true} // infinite loop
+                speed={1000} // lower = slower scroll
+                autoplay={{
+                  delay: 2500, // no delay between slides
+                  disableOnInteraction: false,
+                }}
+                freeMode={true} // smooth continuous scroll
+                // freeModeMomentum={false}
+                className="mySwiper overflow-hidden py-5"
+                style={{
+                  gridColumnGap: "2em",
+                  gridRowGap: "2em",
+                  flexFlow: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  // display: "flex",
+                  // width: "920px",
+                  height: "240px",
+                }}
+              >
+                {[...images, ...images].map((img, i) => (
+                  <SwiperSlide
+                    className="relative"
+                    style={{
+                      display: "inline-block px-4",
+                      width: "320px",
+                    }}
+                  >
+                    <div
+                      key={i}
+                      className=""
+                    >
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        width={320}
+                        height={260}
+                        className="h-[240px] w-[320px] rounded-xl object-cover rounded-3 "
+                      />
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+
+              {/* <div className="panel text-center overflow-hidden rounded-3 border border-5 border-dark dark:border-white dark:border-opacity-20">
                 <Image
                   alt="Main hero image"
                   src="/assets/images/template/dashboard.jpg"
                   width="1440"
                   height="1024"
                 />
-              </div>
-              <div className="position-absolute bottom-0 ltr:end-0 rtl:start-0 ltr:me-n8 rtl:ms-n8 mb-n8">
+              </div> */}
+              <div className="position-absolute bottom-1 ltr:end-0 rtl:start-0 ltr:me-n8 rtl:ms-n8 mb-n8">
                 <Image
                   className="w-200px d-block dark:d-none"
                   alt="sitting"

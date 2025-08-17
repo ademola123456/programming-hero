@@ -10,13 +10,21 @@ export default function Nav2() {
   return (
     <>
       <li className="has-dd-menu">
-        <a href="#" role="button" aria-haspopup="true">
+        <a
+          href="#"
+          role="button"
+          aria-haspopup="true"
+        >
           Features{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
           >
-            <svg width={12} height={12} viewBox="0 0 12 12">
+            <svg
+              width={12}
+              height={12}
+              viewBox="0 0 12 12"
+            >
               <polyline
                 fill="none"
                 stroke="#000"
@@ -115,14 +123,25 @@ export default function Nav2() {
           </div>
         </div>
       </li>
-      <li className="has-dd-menu" style={{ position: "relative" }}>
-        <a href="#" role="button" aria-haspopup="true">
+      <li
+        className="has-dd-menu"
+        style={{ position: "relative" }}
+      >
+        <a
+          href="#"
+          role="button"
+          aria-haspopup="true"
+        >
           Products{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
           >
-            <svg width={12} height={12} viewBox="0 0 12 12">
+            <svg
+              width={12}
+              height={12}
+              viewBox="0 0 12 12"
+            >
               <polyline
                 fill="none"
                 stroke="#000"
@@ -249,14 +268,25 @@ export default function Nav2() {
           </div>
         </div>
       </li>
-      <li className="has-dd-menu" style={{ position: "relative" }}>
-        <a href="#" role="button" aria-haspopup="true">
+      <li
+        className="has-dd-menu"
+        style={{ position: "relative" }}
+      >
+        <a
+          href="#"
+          role="button"
+          aria-haspopup="true"
+        >
           Resources{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
           >
-            <svg width={12} height={12} viewBox="0 0 12 12">
+            <svg
+              width={12}
+              height={12}
+              viewBox="0 0 12 12"
+            >
               <polyline
                 fill="none"
                 stroke="#000"
@@ -358,17 +388,6 @@ export default function Nav2() {
             </div>
           </div>
         </div>
-      </li>
-      <li>
-        <Link href={`/page-pricing`}>Pricing</Link>
-      </li>
-      <li>
-        <a
-          href="https://themeforest.net/user/ib-themes/portfolio"
-          target="_blank"
-        >
-          More
-        </a>
       </li>
     </>
   );

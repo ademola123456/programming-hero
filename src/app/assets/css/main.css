@@ -1,5 +1,6 @@
 /* Import uni-core components */
 @import url("./uni-core.min.css");
+@import url("tailwindcss");
 
 /* Import additional styles */
 @import url("./unicons.min.css");
@@ -12,4 +13,3 @@
 @import "swiper/css";
 @import "swiper/css/thumbs";
 @import "swiper/css/effect-fade";
-
