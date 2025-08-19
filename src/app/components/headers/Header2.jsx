@@ -51,13 +51,13 @@ export default function Header2() {
               data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;"
             >
               <div className="uc-navbar-left">
-                <div className="uc-logo text-dark dark:text-white">
+                <div className="uc-logo text-dark dark:text-white ">
                   <Link
-                    className="panel text-none"
+                    className="panel text-none text-bold"
                     href={`/`}
                     style={{ width: 140 }}
                   >
-                    <Image
+                    {/* <Image
                       className="dark:d-none"
                       alt="Lexend"
                       src="/assets/images/common/logo-light.svg"
@@ -70,7 +70,8 @@ export default function Header2() {
                       src="/assets/images/common/logo-dark.svg"
                       width="117"
                       height="40"
-                    />
+                    /> */}
+                    Brainwave
                   </Link>
                 </div>
                 <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ms-2">
@@ -82,9 +83,9 @@ export default function Header2() {
                   className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
                   href={`/page-pricing`}
                 >
-                  Start free trial
+                  Book a Call
                 </Link>
-                <LanguageSelect2 />
+                {/* <LanguageSelect2 /> */}
                 <a
                   className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
                   onClick={openMobileMenu}

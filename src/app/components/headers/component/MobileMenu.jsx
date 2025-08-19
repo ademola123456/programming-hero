@@ -85,15 +85,16 @@ export default function MobileMenu() {
           <div className="uc-logo">
             <Link
               href={`/`}
-              className="h5 text-none text-gray-900 dark:text-white"
+              className="h5 text-none text-gray-900 dark:text-white text-bold"
             >
-              <Image
+              {/* <Image
                 className="w-32px"
                 alt="Lexend"
                 src="/assets/images/common/logo-mark.svg"
                 width="34"
                 height="34"
-              />
+              /> */}
+              BrainWave
             </Link>
           </div>
           <button
@@ -105,7 +106,7 @@ export default function MobileMenu() {
           </button>
         </header>
         <div className="panel">
-          <form
+          {/* <form
             onSubmit={(e) => e.preventDefault()}
             id="search-panel"
             className="form-icon-group vstack gap-1 mb-2 uc-sticky"
@@ -119,13 +120,16 @@ export default function MobileMenu() {
             <span className="form-icon text-gray">
               <i className="unicon-search icon-1" />
             </span>
-          </form>
+          </form> */}
           <div
             className="uc-sticky-placeholder"
             style={{ height: 40, width: 290, margin: "0px 0px 16px" }}
             hidden=""
           />
-          <ul className="nav-y gap-narrow fw-medium fs-6 uc-nav" data-uc-nav="">
+          <ul
+            className="nav-y gap-narrow fw-medium fs-6 uc-nav"
+            data-uc-nav=""
+          >
             {menuItems.map((item, index) => (
               <li
                 key={index}
@@ -230,22 +234,21 @@ export default function MobileMenu() {
               </li>
             ))}
             <li className="hr opacity-10 my-1" />
-            <li>
+            {/* <li>
               <Link href={`/sign-up`}>Create an account</Link>
             </li>
             <li>
               <Link href={`/sign-in`}>Log in</Link>
             </li>
-            <li>
-              <a href="https://themeforest.net/user/ib-themes/portfolio">
-                Buy Template
-              </a>
-            </li>
+            */}
           </ul>
           <ul className="social-icons nav-x mt-4">
             <li>
               {icons.map((icon, index) => (
-                <a key={index} href={icon.href}>
+                <a
+                  key={index}
+                  href={icon.href}
+                >
                   <i className={icon.iconClass} />
                 </a>
               ))}
@@ -257,7 +260,10 @@ export default function MobileMenu() {
           >
             <div className="vstack gap-1">
               <span className="fs-7 opacity-60">Select theme:</span>
-              <div className="darkmode-trigger" data-darkmode-switch="">
+              <div
+                className="darkmode-trigger"
+                data-darkmode-switch=""
+              >
                 <label className="switch">
                   <input
                     checked={!isChecked}

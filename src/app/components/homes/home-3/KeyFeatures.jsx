@@ -6,7 +6,7 @@ export default function KeyFeatures() {
   return (
     <div
       id="key_features"
-      className="key-features section panel overflow-hidden bg-gray-900 uc-dark"
+      className="key-features section panel overflow-hidden uc-dark"
     >
       <div className="section-outer panel py-6 xl:py-9 dark:bg-gray-800">
         <div className="container sm:max-w-md lg:max-w-lg">

@@ -51,13 +51,13 @@ export const ServiceItems = [
     icon: "📈",
   },
   {
-    href: "/growth_marketing",
+    href: "/conversion_rate_optimization",
     title: "Conversion Rate Optimization",
     desc: "Drastic CVR increase with conversion-focused landing pages.",
     icon: "🎯",
   },
   {
-    href: "/growth_marketing",
+    href: "/Branding",
     title: "Branding",
     desc: "Memorable branding which includes logo, color, typography and more.",
     icon: "✨",

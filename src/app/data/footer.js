@@ -45,6 +45,60 @@ export const footerLinks = [
   },
 ];
 
+export const MainFooterLinks = [
+  {
+    header: "Service",
+    links: [
+      { href: "/web_design", label: "Web Design (UI/UX)" },
+      { href: "/webflow_development", label: "Webflow Development" },
+      { href: "/webflow_migration", label: "Webflow Migration" },
+      { href: "/webflow_seo", label: "Webflow SEO" },
+      {
+        href: "/web_mentainace_support",
+        label: "Webflow Maintenance and Support",
+      },
+      { href: "/webflow_integration", label: "Webflow Integration" },
+      { href: "/growth_marketing", label: "Growth Marketing" },
+      { href: "/graphics_design", label: "Graphics Design" },
+      { href: "/2danimation", label: "2D Animation" },
+    ],
+  },
+  {
+    header: "Industry",
+    links: [
+      { href: "/B2b-Saas", label: "B2B SaaS" },
+      { href: "/information-technology", label: "Information Technology" },
+      { href: "/ecommerce", label: "E-commerce" },
+      { href: "/ai", label: "Artificial Inetelligence" },
+      { href: "/finance-service", label: "Finance Service" },
+      { href: "/web-3", label: "Web3" },
+      { href: "/health-care", label: "Health Care" },
+      { href: "/gaming", label: "Gaming" },
+    ],
+  },
+  {
+    header: "Shop",
+    links: [
+      { href: "/about", label: "About" },
+      { href: "/portfolio", label: "Portfolio" },
+      { href: "/contact", label: "Contact" },
+      { href: "/resource", label: "Resource" },
+      { href: "/blog", label: "Blog" },
+    ],
+  },
+  // {
+  //   header: "Other",
+  //   links: [
+  //     { href: "/page-terms", label: "FAQ" },
+  //     { href: "/page-not-found", label: "404" },
+  //     { href: "/coming-soon", label: "Coming Soon" },
+  //     { href: "/page-terms", label: "Terms of service" },
+  //     { href: "/page-privacy", label: "Privacy policy" },
+  //     { href: "/sign-in", label: "Request a demo" },
+  //   ],
+  // },
+];
+
 export const footerLinks2 = [
   {
     header: "Inner pages",

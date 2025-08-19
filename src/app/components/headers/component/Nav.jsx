@@ -180,6 +180,9 @@ export default function Nav() {
         </div>
       </li>
       <li>
+        <Link href={`/page-about`}>Resources</Link>
+      </li>
+      <li>
         <Link href={`/page-about`}>About</Link>
       </li>
       <li>

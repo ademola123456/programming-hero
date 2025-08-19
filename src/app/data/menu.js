@@ -1,201 +1,128 @@
 export const menuItems = [
   {
     id: 1,
-    label: "Home",
+    label: "Services",
     subItems: [
       {
-        href: "/",
-        label: "Home 1",
+        href: "/web_design",
+        label: "Web Design (UI/UX)",
       },
       {
-        href: "/home-2",
-        label: "Home 2",
+        href: "/webflow_development",
+        label: "Webflow Development",
       },
       {
-        href: "/home-3",
-        label: "Home 3",
+        href: "/webflow_migration",
+        label: "Webflow Migration",
       },
       {
-        href: "/home-4",
-        label: "Home 4",
+        href: "/webflow_seo",
+        label: "Webflow SEO",
       },
       {
-        href: "/home-5",
-        label: "Home 5",
+        href: "/web_mentainace_support",
+        label: "Webflow Maintenance and Support",
       },
       {
-        href: "/home-6",
-        label: "Home 6",
+        href: "/webflow_integration",
+        label: "Webflow Integration",
       },
       {
-        href: "/rtl",
-        label: "Home RTL",
+        href: "/growth_marketing",
+        label: "Growth Marketing",
+      },
+      {
+        href: "/conversion_rate_optimization",
+        label: "Conversion Rate Optimization",
+      },
+      {
+        href: "/Branding",
+        label: "Branding",
       },
     ],
   },
   {
     id: 2,
-    href: "/page-features",
-    label: "Features",
-  },
-  {
-    id: 3,
-    href: "/page-pricing",
-    label: "Pricing",
-  },
-  {
-    id: 4,
-    href: "/page-about",
-    label: "About",
-  },
-  {
-    id: 5,
-    href: "/page-career",
-    label: "Career",
-  },
-  {
-    id: 6,
-    href: "/page-contact",
-    label: "Contact",
-  },
-  {
-    id: 7,
-    label: "Inner Pages",
+    label: "Industries",
     subItems: [
       {
-        label: "Blog",
-        subItems: [
-          {
-            href: "/blog",
-            label: "Full Width",
-          },
-          {
-            href: "/blog-2cols/1",
-            label: "Grid 2 Cols",
-          },
-          {
-            href: "/blog-3cols/1",
-            label: "Grid 3 Cols",
-          },
-          {
-            href: "/blog-4cols/1",
-            label: "Grid 4 Cols",
-          },
-        ],
+        href: "/b2b",
+        label: "B2B SaaS",
       },
       {
-        label: "Blog - detail",
-        subItems: [
-          {
-            href: "/blog-details/1",
-            label: "Blog detail",
-          },
-          {
-            href: "/blog-details-2/1",
-            label: "Blog detail - v2",
-          },
-        ],
+        href: "/ai",
+        label: "Artificial Intelligence",
       },
       {
-        label: "Useful pages",
-        subItems: [
-          {
-            href: "/sign-up",
-            label: "Sign up",
-          },
-          {
-            href: "/sign-in",
-            label: "Sign in",
-          },
-          {
-            href: "/reset-password",
-            label: "Reset password",
-          },
-          {
-            href: "/page-not-found",
-            label: "404 page",
-          },
-          {
-            href: "/coming-soon",
-            label: "Coming soon",
-          },
-        ],
+        href: "/web3",
+        label: "Web3",
       },
       {
-        label: "Other pages",
-        subItems: [
-          {
-            href: "/page-terms",
-            label: "FAQ",
-          },
-          {
-            href: "/page-terms",
-            label: "Terms of use",
-          },
-          {
-            href: "/page-privacy",
-            label: "Privacy policy",
-          },
-        ],
+        href: "/Information_technology",
+        label: "Information Technology",
+      },
+      {
+        href: "/financial_services",
+        label: "Financial Services",
+      },
+      {
+        href: "/healthcare",
+        label: "Healthcare",
+      },
+      {
+        href: "/ecommerce",
+        label: "E-commerce",
+      },
+      {
+        href: "/gamin",
+        label: "Gaming",
+      },
+      {
+        href: "/animation",
+        label: "Animation",
       },
     ],
   },
   {
-    id: 8,
-    label: "Shop",
+    id: 3,
+    href: "/portfolio",
+    label: "Portfolio",
+  },
+  {
+    id: 4,
+    href: "/resources",
+    label: "Resources",
+  },
+  {
+    id: 5,
+    href: "/about",
+    label: "About Us",
+  },
+  {
+    id: 5,
+    href: "/contact_us",
+    label: "Contact Us",
+  },
+  {
+    id: 6,
+    href: "/blog",
+    label: "Blog",
+  },
+  {
+    id: 7,
+    label: "Other pages",
     subItems: [
       {
-        label: "Shop layouts",
-        subItems: [
-          {
-            href: "/shop",
-            label: "Shop 4 cols",
-          },
-          {
-            href: "/shop-3",
-            label: "Shop 3 cols",
-          },
-          {
-            href: "/shop-2",
-            label: "Shop 2 cols",
-          },
-          {
-            href: "/shop-sidebar",
-            label: "Shop with sidebar",
-          },
-        ],
+        href: "/page-terms",
+        label: "FAQ",
       },
       {
-        href: "/shop-category/demo",
-        label: "Archive category",
+        href: "/page-terms",
+        label: "Terms of use",
       },
       {
-        href: "/shop-product-detail/2",
-        label: "Product detail",
-      },
-      {
-        href: "/shop-product-detail-2/2",
-        label: "Product detail - v2",
-      },
-      {
-        href: "/shop-cart",
-        label: "Cart",
-      },
-      {
-        href: "/shop-cart-2",
-        label: "Cart - v2",
-      },
-      {
-        href: "/shop-checkout",
-        label: "Checkout",
-      },
-      {
-        href: "/shop-checkout-2",
-        label: "Checkout - v2",
-      },
-      {
-        href: "/shop-order",
-        label: "Order confirmation",
+        href: "/page-privacy",
+        label: "Privacy policy",
       },
     ],
   },

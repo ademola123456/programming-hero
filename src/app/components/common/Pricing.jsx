@@ -17,7 +17,7 @@ export default function Pricing() {
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
               >
                 <h2 className="title h3 lg:h2 xl:h1">
-                  Simple, scalable pricing.
+                  Simple, scalable pricings.
                 </h2>
                 <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
                   No extra charges. No hidden fees.
@@ -29,7 +29,10 @@ export default function Pricing() {
                   data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 400});"
                 >
                   {tiers3.map((tier, index) => (
-                    <div key={index} className="tier-wrapper">
+                    <div
+                      key={index}
+                      className="tier-wrapper"
+                    >
                       <div className="tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 rounded lg:rounded-2 bg-secondary dark:bg-gray-800">
                         {tier.isPopular && (
                           <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-2 d-inline-flex py-narrow px-1 bg-primary rounded-1 text-white fs-7 fw-medium">
@@ -81,7 +84,10 @@ export default function Pricing() {
                                   }, plus:`}
                             </span>
                             {tier.features.map((feature, idx) => (
-                              <div key={idx} className="hstack gap-1 fs-7">
+                              <div
+                                key={idx}
+                                className="hstack gap-1 fs-7"
+                              >
                                 <i className="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold" />
                                 <span>{feature}</span>
                               </div>

@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <div id="features" className="features section panel  scrollSpysection">
+    <div
+      id="features"
+      className="features section panel  scrollSpysection"
+    >
       <div className="section-outer panel pt-6 lg:pt-8 xl:pt-10">
         <div className="container xl:max-w-xl">
           <div className="section-inner panel">
@@ -43,7 +46,10 @@ export default function Features() {
                       Intuitive interface Drag-and-Drop for building pages by
                       dragging and dropping elements.
                     </p>
-                    <a href="#" className="btn btn-sm btn-primary px-2 mt-2">
+                    <a
+                      href="#"
+                      className="btn btn-sm btn-primary px-2 mt-2"
+                    >
                       <span>Try it now</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>

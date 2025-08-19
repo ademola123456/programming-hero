@@ -1,5 +1,6 @@
 "use client";
 import Context from "@/context/Context";
+import "./globals.css";
 import "../public/assets/css/main.css";
 import "../public/assets/custom.scss";
 import "react-modal-video/scss/modal-video.scss";
@@ -99,7 +100,10 @@ export default function RootLayout({ children }) {
     };
   }, [pathname]);
   return (
-    <html lang="en" dir="ltr">
+    <html
+      lang="en"
+      dir="ltr"
+    >
       <body>
         {" "}
         <Context>

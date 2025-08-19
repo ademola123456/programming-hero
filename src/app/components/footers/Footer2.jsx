@@ -2,11 +2,14 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import LanguageSelect from "../common/LanguageSelect";
-import { footerLinks, socialLinks } from "@/data/footer";
+import { MainFooterLinks, socialLinks } from "@/data/footer";
 
 export default function Footer2() {
   return (
-    <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark">
+    <footer
+      id="uc-footer"
+      className="uc-footer panel overflow-hidden uc-dark"
+    >
       <div className="footer-outer py-4 lg:py-6 xl:py-9 dark:bg-gray-900 dark:text-white">
         <div className="container max-w-xl">
           <div className="footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
@@ -30,7 +33,7 @@ export default function Footer2() {
                         proposal with dynamic pricing tables.
                       </p>
                     </div>
-                    <div className="hstack items-start gap-1">
+                    {/* <div className="hstack items-start gap-1">
                       <a href="#">
                         <Image
                           className="text-gray-900 dark:text-white hover:text-opacity-70 transition-all duration-150"
@@ -51,36 +54,45 @@ export default function Footer2() {
                           height="40"
                         />
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
-                {footerLinks.map((section, index) => (
-                  <div key={index}>
-                    <ul className="nav-y gap-1 fw-medium">
-                      {section.links.map((link, i) => (
-                        <li key={i}>
-                          <Link href={link.href}>{link.label}</Link>
-                        </li>
-                      ))}
-                    </ul>
+                <div className="uc-footer-nav panel w-100">
+                  <div className="row child-cols-6 sm:child-cols col-match g-4">
+                    {MainFooterLinks.map((section, index) => (
+                      <div
+                        key={index}
+                        className={
+                          section.header === "Other" ? "d-none lg:d-block" : ""
+                        }
+                      >
+                        <ul className="nav-y gap-1 fw-medium ">
+                          <li className="uc-nav-header opacity-60 lg:mb-2">
+                            {section.header}
+                          </li>
+                          {section.links.map((link, i) => (
+                            <li key={i}>
+                              <Link href={link.href}>{link.label}</Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
                   </div>
-                ))}
+                </div>
               </div>
             </div>
-            <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
+            <div className="grid-coll-3 uc-footer-bottom panel vstack lg:hstack gap-4  justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
               <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
                 <p className="opacity-60">
-                  Lexend © 2024, All rights reserved.
+                  © 2025 Brainwave. All Rights Reserveds.
                 </p>
                 <ul className="nav-x gap-2 fw-medium">
                   <li>
                     <a href="#">Privacy notice</a>
                   </li>
                   <li>
-                    <a href="#">Legal</a>
-                  </li>
-                  <li>
-                    <a href="#">Cookie settings</a>
+                    <a href="#">Terms & Condition</a>
                   </li>
                 </ul>
               </div>
@@ -94,8 +106,8 @@ export default function Footer2() {
                     </li>
                   ))}
                 </ul>
-                <div className="vr" />
-                <LanguageSelect />
+                {/* <div className="vr" />
+                <LanguageSelect /> */}
               </div>
             </div>
           </div>

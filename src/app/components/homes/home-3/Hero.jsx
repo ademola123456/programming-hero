@@ -238,7 +238,7 @@ export default function Hero() {
                   >
                     <div
                       key={i}
-                      className=""
+                      className="relative w-[320px] w-[260px"
                     >
                       <Image
                         src={img.src}
@@ -260,7 +260,14 @@ export default function Hero() {
                   height="1024"
                 />
               </div> */}
-              <div className="position-absolute bottom-1 ltr:end-0 rtl:start-0 ltr:me-n8 rtl:ms-n8 mb-n8">
+              <div
+                className="position-absolute bottom-1 ltr:end-0 rtl:start-0 ltr:me-n8 rtl:ms-n8 mb-n8"
+                style={{
+                  "z-index": "1",
+                  "margin-right": "-5rem !important",
+                  "margin-bottom": "-8rem !important",
+                }}
+              >
                 <Image
                   className="w-200px d-block dark:d-none"
                   alt="sitting"

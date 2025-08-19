@@ -62,6 +62,39 @@ export const slidesData = [
   },
   // ...add more slide data as needed
 ];
+export const testimonialsData = [
+  {
+    rating: 5,
+    quote:
+      "I had the pleasure of working with Divyansh on our website revamp project at Hopstack, and I can confidently say that he is exceptional at what he does...",
+    name: "Anurag Singh",
+    title: "Senior Product Marketing Manager, Hopstack",
+    avatarSrc: "/success1.png",
+  },
+  {
+    rating: 5,
+    quote:
+      "We brought Divyansh on board to help redesign Terra’s landing page for a major event, and he absolutely delivered...",
+    name: "Ashwin Krishnan",
+    title: "CoFounder, Terra",
+    avatarSrc: "/success2.jpg",
+  },
+  {
+    rating: 5,
+    quote:
+      "We’re happy to have collaborated with Divyansh for our website needs. His responsiveness, flexibility and timeliness...",
+    name: "Shobini Appanderanda",
+    title: "Head of Programs, Serotonin Labs Inc",
+    avatarSrc: "/success3.jpg",
+  },
+  {
+    rating: 5,
+    quote: "I highly recommend Divyansh for any web development needs...",
+    name: "Brian Lee",
+    title: "Director of Ops, ShopBox",
+    avatarSrc: "/p2.avif",
+  },
+];
 
 export const reviews = [
   {

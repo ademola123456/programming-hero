@@ -10,6 +10,8 @@ import Blog from "@/components/homes/home-3/Blog";
 import Cta from "@/components/homes/home-3/Cta";
 import Footer2 from "@/components/footers/Footer2";
 import Brands3 from "@/components/common/Brands2";
+import Solution from "@/components/homes/home-3/Solution";
+import Success from "@/components/homes/home-3/Success";
 export const metadata = {
   title:
     "Home 3 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -21,14 +23,18 @@ export default function HomePage3() {
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
         <Header2 />
-        <div id="wrapper" className="wrap">
+        <div
+          id="wrapper"
+          className="wrap"
+        >
           <Hero />
           <Brands2 />
-          <Features />
-          <KeyFeatures />
-          <Pricing />
+          <Solution />
+          <Success />
+          {/* <KeyFeatures /> */}
+          {/* <Pricing /> */}
           <Testimonials />
-          <div
+          {/* <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"
           >
@@ -48,7 +54,7 @@ export default function HomePage3() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <Blog />
           <Cta />
         </div>
