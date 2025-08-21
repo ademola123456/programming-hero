@@ -247,14 +247,14 @@ html[dir="rtl"] .nav-y .uc-parent::after {
 .menu-stack-pr {
   max-width: fit-content;
   padding: 10px;
-  margin: 5px 0;
-  border-radius: 5px;
-  background: #eee;
+  margin: 10px 0;
+  // border-radius: 5px;
+  background: #fafafab7;
 }
-.menu-stack-pr:hover {
-  background: #e2e1e1;
-  border: 1p solid grey;
-}
+// .menu-stack-pr:hover {
+//   background: #e2e1e1;
+//   border: 1p solid grey;
+// }
 .inActiveMenu {
   text-decoration: none;
 }

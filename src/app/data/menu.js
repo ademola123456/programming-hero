@@ -4,35 +4,35 @@ export const menuItems = [
     label: "Services",
     subItems: [
       {
-        href: "/web_design",
+        href: "/web-design",
         label: "Web Design (UI/UX)",
       },
       {
-        href: "/webflow_development",
+        href: "/webflow-development",
         label: "Webflow Development",
       },
       {
-        href: "/webflow_migration",
+        href: "/webflow-migration",
         label: "Webflow Migration",
       },
       {
-        href: "/webflow_seo",
+        href: "/webflow-seo",
         label: "Webflow SEO",
       },
       {
-        href: "/web_mentainace_support",
+        href: "/web-mentainace-support",
         label: "Webflow Maintenance and Support",
       },
       {
-        href: "/webflow_integration",
+        href: "/webflow-integration",
         label: "Webflow Integration",
       },
       {
-        href: "/growth_marketing",
+        href: "/growth-marketing",
         label: "Growth Marketing",
       },
       {
-        href: "/conversion_rate_optimization",
+        href: "/conversion-rate-optimization",
         label: "Conversion Rate Optimization",
       },
       {

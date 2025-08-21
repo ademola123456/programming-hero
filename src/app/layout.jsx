@@ -8,7 +8,7 @@ import "photoswipe/dist/photoswipe.css";
 import "rc-slider/assets/index.css";
 import Cart from "@/components/common/Cart";
 import { useEffect } from "react";
-import { animate } from "animejs";
+// import { animate } from "animejs";
 import { usePathname } from "next/navigation";
 import MobileMenu from "@/components/headers/component/MobileMenu";
 import BacktoTop from "./components/common/BacktoTop";
@@ -59,23 +59,23 @@ export default function RootLayout({ children }) {
             // console.log(animeSettings);
 
             // Apply Anime.js animation
-            animate({
-              loop: animeSettings.loop ? true : false,
-              targets: targets,
-              translateX: JSON.parse(animeSettings.translateX || "[0, 0]"),
-              translateY: JSON.parse(animeSettings.translateY || "[48, 0]"),
-              opacity: [0, 1],
-              // direction: "alternate",
-              easing: animeSettings.easing || "spring(1, 80, 10, 0)",
-              duration: Number(animeSettings.duration) || 450,
-              delay: animeSettings.delay
-                ? animeSettings.delay.includes(",")
-                  ? anime.stagger(animeSettings.delay.split(",")[0] / 1, {
-                      start: animeSettings.delay.split(",")[1] / 1,
-                    })
-                  : animeSettings.delay / 1
-                : 0,
-            });
+            // animate({
+            //   loop: animeSettings.loop ? true : false,
+            //   targets: targets,
+            //   translateX: JSON.parse(animeSettings.translateX || "[0, 0]"),
+            //   translateY: JSON.parse(animeSettings.translateY || "[48, 0]"),
+            //   opacity: [0, 1],
+            //   // direction: "alternate",
+            //   easing: animeSettings.easing || "spring(1, 80, 10, 0)",
+            //   duration: Number(animeSettings.duration) || 450,
+            //   delay: animeSettings.delay
+            //     ? animeSettings.delay.includes(",")
+            //       ? anime.stagger(animeSettings.delay.split(",")[0] / 1, {
+            //           start: animeSettings.delay.split(",")[1] / 1,
+            //         })
+            //       : animeSettings.delay / 1
+            //     : 0,
+            // });
 
             // Unobserve the element after animation triggers
             observer.unobserve(element);

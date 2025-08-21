@@ -2,9 +2,9 @@ import { title } from "process";
 import Home3 from "./(homes)/home-3/page";
 export const metadata = {
   title:
-    "Home 1 || Brainwave - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home  || Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
   description:
-    "Brainwave - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
 };
 export default function HomePage1() {
   return (

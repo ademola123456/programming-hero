@@ -79,7 +79,7 @@ export default function CaseStudyCard() {
               <div className="cstack gap-1 py-1 px-2 border rounded-pill">
                 <span className="d-inline-block w-4px h-4px rounded-circle bg-primary dark:bg-secondary" />
                 <span className="fs-8 fw-bold text-uppercase">
-                  Main features
+                  Case Studies
                 </span>
               </div>
               <h2 className="h3 lg:h2 xl:h1 m-0 px-2">

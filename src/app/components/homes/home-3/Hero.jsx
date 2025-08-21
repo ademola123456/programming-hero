@@ -263,9 +263,9 @@ export default function Hero() {
               <div
                 className="position-absolute bottom-1 ltr:end-0 rtl:start-0 ltr:me-n8 rtl:ms-n8 mb-n8"
                 style={{
-                  "z-index": "1",
-                  "margin-right": "-5rem !important",
-                  "margin-bottom": "-8rem !important",
+                  zIndex: "1",
+                  marginRight: "-5rem !important",
+                  marginBottom: "-8rem !important",
                 }}
               >
                 <Image
