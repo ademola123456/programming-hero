@@ -1,14 +1,16 @@
+"use client";
 import {
-  Gamepad2,
-  Slack,
-  CodeXml,
   TrendingUp,
   Radar,
-  Rocket,
-  Users,
+  Radio,
+  Podcast,
+  Mails,
+  Mail,
+  Laptop,
 } from "lucide-react";
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 // const solutionsData = [
 //   {
@@ -59,7 +61,7 @@ import Link from "next/link";
 //     ],
 //   },
 //   {
-//     icon: MessageSquare,
+//     icon: Slack,
 //     title: "Webflow Maintenance and Support",
 //     description:
 //       "We provide post launch updates, performance checks, and troubleshooting to keep your Webflow site secure and optimized.",
@@ -74,46 +76,46 @@ import Link from "next/link";
 
 const solutionsData = [
   {
-    icon: Gamepad2,
-    title: "Immersive Game Worlds",
+    icon: Podcast,
+    title: "3D Character Modeling",
     description:
-      "Craft breathtaking environments with stunning visuals and interactive storytelling.",
-    // image: "/game-worlds.jpg",
+      "Design intricate 3D characters with detailed textures and rigging for lifelike movements in animations and games.",
+    image: "/seo-marketing.jpg",
   },
   {
-    icon: Slack,
-    title: "Next-Gen Graphics",
+    icon: Radio,
+    title: "Realistic Rendering",
     description:
-      "Utilize cutting-edge rendering and shaders for lifelike characters and environments.",
-    image: "/graphics.jpg",
-  },
-  {
-    icon: TrendingUp,
-    title: "Cross-Platform Development",
-    description:
-      "Seamlessly deploy on PC, console, and mobile for maximum player reach.",
-    image: "/cross-platform.jpg",
-  },
-  {
-    icon: Users,
-    title: "Multiplayer Systems",
-    description:
-      "Design and implement scalable multiplayer experiences with real-time interaction.",
-    image: "/multiplayer.jpg",
+      "Produce high-quality renders with advanced lighting and shading techniques to enhance visual realism.",
+    image: "/social-media.jpg",
   },
   {
     icon: Radar,
-    title: "Game Mechanics & AI",
+    title: "Virtual Reality Integration",
     description:
-      "Create engaging gameplay loops and intelligent NPC behaviors that adapt to players.",
-    image: "/ai-mechanics.jpg",
+      "Incorporate 3D animations into VR experiences for immersive training, gaming, or interactive marketing.",
+    image: "/paid-ads.jpg",
   },
   {
-    icon: Rocket,
-    title: "Post-Launch Support",
+    icon: Laptop,
+    title: "Dynamic Simulations",
     description:
-      "Continuous updates, patches, and feature expansions to keep players engaged.",
-    image: "/post-launch.jpg",
+      "Create realistic physics-based animations like fluid dynamics, cloth simulation, and particle effects.",
+    image: "/email-marketing.jpg",
+  },
+  {
+    icon: Mails,
+    title: "Cinematic Sequences",
+    description:
+      "Develop breathtaking cinematic scenes with camera work and storytelling for films and trailers.",
+    image: "/influencer-marketing.jpg",
+  },
+  {
+    icon: TrendingUp,
+    title: "Product Visualization",
+    description:
+      "Showcase products with 3D animations and renderings to highlight features and boost marketing efforts.",
+    image: "/analytics-reporting.jpg",
   },
 ];
 export default function Features() {
@@ -126,16 +128,31 @@ export default function Features() {
         <div className="container  max-w-full">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 sm:gap-6 xl:gap-8">
-              <div className="text-white text-muted-foreground inline-block  text-sm font-semibold text-center">
-                ★ Services
-              </div>
-              <h2
-                className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
-                data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
+              <motion.div
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                viewport={{ once: true }}
+                className="text-center"
               >
-                Our Solutions for your Digital
-                <span className="text-primary"> Growth.</span>
-              </h2>
+                <div className="text-white text-muted-foreground inline-block  text-sm font-semibold text-center">
+                  ★ Services
+                </div>
+                <h2
+                  className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
+                  data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
+                >
+                  Advanced 3D Animation
+                  <span className="text-primary"> Solutions.</span>
+                </h2>
+                <p className="text-white text-sm py-3 font-semibold text-center">
+                  Transform your vision into reality with a full spectrum of 3D
+                  animation services, including character modeling, realistic
+                  rendering, virtual reality integration, and dynamic
+                  simulations, tailored for film production, game development,
+                  and promotional content.
+                </p>
+              </motion.div>
               <div className="panel">
                 <div
                   className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-3"
@@ -146,7 +163,20 @@ export default function Features() {
 
                     return (
                       <div key={index}>
-                        <div className="feature-item panel p-4 border rounded-2 hover:bg-white dark:hover:bg-secondary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all">
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, y: 30 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          transition={{ delay: index * 0.15, duration: 0.6 }}
+                          viewport={{ once: true }}
+                          whileHover={{
+                            scale: 1.05,
+                            rotate: 1.5,
+                            boxShadow: "0 15px 30px rgba(51, 27, 8, 0.6)",
+                            borderColor: "#dc26ff",
+                          }}
+                          className="feature-item panel p-4 border rounded-2 hover:bg-white dark:hover:bg-secondary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all"
+                        >
                           <div className="vstack panel min-h-250px">
                             {/* <i className="position-absolute top-0 ltr:end-0 rtl:start-0 icon-2 unicon-arrow-up-right rtl:-rotate-90" /> */}
                             <div className="vstack justify-between gap-2 h-100">
@@ -171,7 +201,7 @@ export default function Features() {
                               className="position-cover"
                             ></Link>
                           </div>
-                        </div>
+                        </motion.div>
                       </div>
                     );
                   })}

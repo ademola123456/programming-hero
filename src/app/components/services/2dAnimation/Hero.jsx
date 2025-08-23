@@ -174,13 +174,14 @@ export default function Hero() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h2 sm:h1 lg:display-6 xl:display-4 m-0">
-                Stunning Design & Webflow <br className="d-none lg:d-block" />{" "}
-                Development for Startups
+                Dynamic 2D Animation Services
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Expert design and Webflow development agency to help you scale
-                to <br className="d-none sm:d-block" />
-                raise your success in digital goals.
+                Bring your stories to life with captivating 2D animations
+                tailored for explainer videos, character design, to motion
+                graphics, and more, delivering engaging{" "}
+                <br className="d-none sm:d-block" /> visuals for marketing,
+                education, and entertainment.
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column pb-5">
                 <Link
@@ -201,7 +202,7 @@ export default function Hero() {
             </div>
 
             <div
-              className="hero-scene panel max-w-xlg mx-auto "
+              className="hero-scene  panel max-w-xlg mx-auto py-8"
               data-anime="targets: >*; scale: [0.9, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});"
             >
               <Swiper
@@ -216,7 +217,7 @@ export default function Hero() {
                 }}
                 freeMode={true} // smooth continuous scroll
                 // freeModeMomentum={false}
-                className="mySwiper overflow-hidden py-5"
+                className="mySwiper overflow-hidden py-5 row child-cols-12 sm:child-cols-6 lg:child-cols-3  "
                 style={{
                   gridColumnGap: "2em",
                   gridRowGap: "2em",
@@ -224,7 +225,7 @@ export default function Hero() {
                   justifyContent: "center",
                   alignItems: "center",
                   // display: "flex",
-                  // width: "920px",
+                  width: "100%",
                   height: "240px",
                 }}
               >
@@ -238,7 +239,7 @@ export default function Hero() {
                   >
                     <div
                       key={i}
-                      className="relative w-[320px] w-[260px"
+                      className="relative w-100"
                     >
                       <Image
                         src={img.src}
@@ -265,7 +266,7 @@ export default function Hero() {
                 style={{
                   zIndex: "1",
                   marginRight: "-5rem !important",
-                  marginBottom: "-8rem !important",
+                  marginBottom: "-5rem !important",
                 }}
               >
                 <Image
