@@ -12,10 +12,6 @@ export const menuItems = [
         label: "Webflow Development",
       },
       {
-        href: "/webflow-migration",
-        label: "Webflow Migration",
-      },
-      {
         href: "/webflow-seo",
         label: "Webflow SEO",
       },
@@ -24,20 +20,29 @@ export const menuItems = [
         label: "Webflow Maintenance and Support",
       },
       {
-        href: "/webflow-integration",
-        label: "Webflow Integration",
+        href: "/game-development",
+        label: "Game development",
       },
       {
-        href: "/growth-marketing",
-        label: "Growth Marketing",
-      },
-      {
-        href: "/conversion-rate-optimization",
-        label: "Conversion Rate Optimization",
+        href: "/digital-marketing",
+        label: "Digital Marketing",
       },
       {
         href: "/Branding",
         label: "Branding",
+      },
+      {
+        href: "/2d-animation",
+        label: "2D Animation",
+      },
+      {
+        href: "/google-ads",
+        label: "Google Ads",
+      },
+
+      {
+        href: "/meta-ads",
+        label: "Meta Ads",
       },
     ],
   },
@@ -58,11 +63,11 @@ export const menuItems = [
         label: "Web3",
       },
       {
-        href: "/Information_technology",
+        href: "/Information-technology",
         label: "Information Technology",
       },
       {
-        href: "/financial_services",
+        href: "/financial-services",
         label: "Financial Services",
       },
       {

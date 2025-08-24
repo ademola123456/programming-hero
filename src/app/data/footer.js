@@ -49,19 +49,47 @@ export const MainFooterLinks = [
   {
     header: "Service",
     links: [
-      { href: "/web-design", label: "Web Design (UI/UX)" },
-      { href: "/webflow-development", label: "Webflow Development" },
-      { href: "/webflow-migration", label: "Webflow Migration" },
-      { href: "/webflow-seo", label: "Webflow SEO" },
+      {
+        href: "/web-design",
+        label: "Web Design (UI/UX)",
+      },
+      {
+        href: "/webflow-development",
+        label: "Webflow Development",
+      },
+      {
+        href: "/webflow-seo",
+        label: "Webflow SEO",
+      },
       {
         href: "/web-mentainace-support",
         label: "Webflow Maintenance and Support",
       },
-      { href: "/game-development", label: "Game development" },
-      { href: "/digital-marketing", label: "Growth Marketing" },
-      { href: "/branding", label: "Graphics Design" },
-      { href: "/2d-animation", label: "2D Animation" },
-      { href: "/3d-animation", label: "3D Animation" },
+      {
+        href: "/game-development",
+        label: "Game development",
+      },
+      {
+        href: "/digital-marketing",
+        label: "Digital Marketing",
+      },
+      {
+        href: "/Branding",
+        label: "Branding",
+      },
+      {
+        href: "/2d-animation",
+        label: "2D Animation",
+      },
+      {
+        href: "/google-ads",
+        label: "Google Ads",
+      },
+
+      {
+        href: "/meta-ads",
+        label: "Meta Ads",
+      },
     ],
   },
   {

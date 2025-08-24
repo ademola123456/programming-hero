@@ -10,67 +10,6 @@ import {
 import React from "react";
 import Link from "next/link";
 
-// const solutionsData = [
-//   {
-//     icon: LayoutTemplate,
-//     title: "UI/UX Design",
-//     description:
-//       "Our expert Webflow design team create stunning, user-centered websites that drive conversions through strategic UI/UX design, ensuring your brand stands out.",
-//     tags: ["Web design", "UX Research", "Figma Design"],
-//   },
-//   {
-//     icon: CodeXml,
-//     title: "Webflow Development",
-//     description:
-//       "Transform your vision into reality with our expert Webflow development services. Our certified developers create responsive, scalable websites that perform.",
-//     tags: ["Webflow Design", "Webflow Experts"],
-//   },
-//   {
-//     icon: TrendingUp,
-//     title: "Webflow SEO",
-//     description:
-//       "Boost your online visibility with our comprehensive Webflow SEO services, ensuring your website ranks and performs. Rank higher and grow faster with our expert SEO services.",
-//     tags: ["Webflow SEO", "Link Building", "Global SEO"],
-//   },
-//   {
-//     icon: FlaskConical,
-//     title: "Growth Marketing",
-//     description:
-//       "Turn your Webflow website into a lead generating engine. We combine UX with data to boost conversions, maximize ROI, & grow your brand.",
-//     tags: [
-//       "A/B & Multivariate Testing",
-//       "Funnels",
-//       "Heatmaps",
-//       "Landing Page Optimization",
-//       "CRO Audits",
-//       "UX Flows",
-//     ],
-//   },
-//   {
-//     icon: ArrowRightLeft,
-//     title: "Webflow Migration",
-//     description:
-//       "Smooth transitions guaranteed. Migrations from WordPress to Webflow, Squarespace to Webflow, and Wix to Webflow are our specialties.",
-//     tags: [
-//       "Migrate to Webflow",
-//       "Wix to Webflow",
-//       "WordPress to Webflow",
-//       "Figma to Webflow",
-//     ],
-//   },
-//   {
-//     icon: MessageSquare,
-//     title: "Webflow Maintenance and Support",
-//     description:
-//       "We provide post launch updates, performance checks, and troubleshooting to keep your Webflow site secure and optimized.",
-//     tags: [
-//       "Webflow Maintenance",
-//       "Webflow Support",
-//       "24/7 Support",
-//       "Ongoing Support",
-//     ],
-//   },
-// ];
 
 const solutionsData = [
   {

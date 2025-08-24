@@ -1,9 +1,9 @@
+
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
 export const metadata = {
-  title:
-    "Web Mentainance Support || Brainwave ",
+  title: "Web Mentainance Support || Brainwave ",
   description:
     "Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
 };
