@@ -3,7 +3,7 @@ import Header2 from "@/components/headers/Header2";
 import Footer2 from "@/components/footers/Footer2";
 export const metadata = {
   title:
-    "Home || Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
+    "Web Mentainance Support || Brainwave ",
   description:
     "Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
 };

@@ -7,8 +7,7 @@ import Features from "@/components/services/DigitalMaketing/Features";
 import Integration from "@/components/services/DigitalMaketing/Integration";
 import Success from "@/components/services/DigitalMaketing/Success";
 export const metadata = {
-  title:
-    "Home || Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
+  title: "Digital Marketing || Brainwave ",
   description:
     "Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
 };

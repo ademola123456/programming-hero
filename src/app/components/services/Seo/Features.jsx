@@ -75,44 +75,44 @@ import Link from "next/link";
 const solutionsData = [
   {
     icon: Gamepad2,
-    title: "Immersive Game Worlds",
+    title: "Keyword Research & Strategy",
     description:
-      "Craft breathtaking environments with stunning visuals and interactive storytelling.",
+      "Identify high-value keywords and develop strategies to target your ideal audience effectively.",
     // image: "/game-worlds.jpg",
   },
   {
     icon: Slack,
-    title: "Next-Gen Graphics",
+    title: "On-Page Optimization",
     description:
-      "Utilize cutting-edge rendering and shaders for lifelike characters and environments.",
+      "Enhance meta tags, content, and site structure to boost search engine crawlability and relevance.",
     image: "/graphics.jpg",
   },
   {
     icon: TrendingUp,
-    title: "Cross-Platform Development",
+    title: "Link Building",
     description:
-      "Seamlessly deploy on PC, console, and mobile for maximum player reach.",
+      "Build authoritative backlinks to strengthen your site’s credibility and search authority.",
     image: "/cross-platform.jpg",
   },
   {
     icon: Users,
-    title: "Multiplayer Systems",
+    title: "Technical SEO",
     description:
-      "Design and implement scalable multiplayer experiences with real-time interaction.",
+      "Improve site speed, mobile-friendliness, and indexing to meet search engine standards.",
     image: "/multiplayer.jpg",
   },
   {
     icon: Radar,
-    title: "Game Mechanics & AI",
+    title: "Content Creation",
     description:
-      "Create engaging gameplay loops and intelligent NPC behaviors that adapt to players.",
+      "Produce engaging and SEO-friendly content that attracts and retains visitors.",
     image: "/ai-mechanics.jpg",
   },
   {
     icon: Rocket,
-    title: "Post-Launch Support",
+    title: "Analytics & Reporting",
     description:
-      "Continuous updates, patches, and feature expansions to keep players engaged.",
+      "Monitor performance and gain insights to continually optimize your SEO strategy.",
     image: "/post-launch.jpg",
   },
 ];
@@ -133,9 +133,14 @@ export default function Features() {
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Our Solutions for your Digital
-                <span className="text-primary"> Growth.</span>
+                Advanced
+                <span className="text-primary"> SEO</span> Solutions.
               </h2>
+              <h5 className=" h5 lg:h5 xl:h4 m-0 text-center max-w-550px mx-auto">
+                Optimize your online presence with a comprehensive range of SEO
+                services designed to improve rankings, enhance user experience,
+                and increase organic traffic.
+              </h5>
               <div className="panel">
                 <div
                   className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-3"

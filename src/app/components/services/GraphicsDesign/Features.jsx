@@ -75,44 +75,44 @@ import Link from "next/link";
 const solutionsData = [
   {
     icon: Gamepad2,
-    title: "Immersive Game Worlds",
+    title: "Branding Design",
     description:
-      "Craft breathtaking environments with stunning visuals and interactive storytelling.",
+      "Craft unique logos and brand identities that resonate with your audience and build recognition.",
     // image: "/game-worlds.jpg",
   },
   {
     icon: Slack,
-    title: "Next-Gen Graphics",
+    title: "Color Theory & Layout",
     description:
-      "Utilize cutting-edge rendering and shaders for lifelike characters and environments.",
+      "Design visually appealing layouts with expert color schemes to enhance user experience.",
     image: "/graphics.jpg",
   },
   {
     icon: TrendingUp,
-    title: "Cross-Platform Development",
+    title: "Vector Graphics",
     description:
-      "Seamlessly deploy on PC, console, and mobile for maximum player reach.",
+      "Create scalable illustrations and icons for versatile design applications.",
     image: "/cross-platform.jpg",
   },
   {
     icon: Users,
-    title: "Multiplayer Systems",
+    title: "Digital Imagery",
     description:
-      "Design and implement scalable multiplayer experiences with real-time interaction.",
+      "Produce high-quality digital assets for websites, social media, and marketing materials.",
     image: "/multiplayer.jpg",
   },
   {
     icon: Radar,
-    title: "Game Mechanics & AI",
+    title: "Print Design",
     description:
-      "Create engaging gameplay loops and intelligent NPC behaviors that adapt to players.",
+      "Design professional print materials like brochures, posters, and business cards.",
     image: "/ai-mechanics.jpg",
   },
   {
     icon: Rocket,
-    title: "Post-Launch Support",
+    title: "Mobile UI/UX Design",
     description:
-      "Continuous updates, patches, and feature expansions to keep players engaged.",
+      "Craft intuitive and visually appealing interfaces for mobile applications.",
     image: "/post-launch.jpg",
   },
 ];
@@ -133,9 +133,14 @@ export default function Features() {
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Our Solutions for your Digital
-                <span className="text-primary"> Growth.</span>
+                <span className="text-primary"> Diverse</span> Graphics{" "}
+                <span className="text-primary"> Design</span> Solutions.
               </h2>
+              <h5 className=" h5 lg:h5 xl:h4 m-0 text-center max-w-550px mx-auto">
+                Elevate your brand with a variety of design services that blend
+                creativity, functionality, and market appeal to stand out
+                visually.
+              </h5>
               <div className="panel">
                 <div
                   className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-3"

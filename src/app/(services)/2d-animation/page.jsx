@@ -7,8 +7,7 @@ import Features from "@/components/services/2dAnimation/Feature";
 import Integration from "@/components/services/2dAnimation/Integration";
 
 export const metadata = {
-  title:
-    "Home || Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
+  title: "2D Animation || Brainwave ",
   description:
     "Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
 };

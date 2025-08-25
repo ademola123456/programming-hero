@@ -2,13 +2,22 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { brands } from "@/data/brands";
 import Image from "next/image";
+import { Autoplay } from "swiper/modules";
 
 export default function Brands() {
   return (
     <Swiper
+      modules={[Autoplay]}
       slidesPerView={2}
       centeredSlides={true}
       centeredSlidesBounds={true}
+      loop={true} // infinite loop
+      speed={1000} // lower = slower scroll
+      autoplay={{
+        delay: 2500, // no delay between slides
+        disableOnInteraction: false,
+      }}
+      freeMode={true} // smooth continuous scroll
       breakpoints={{
         640: {
           slidesPerView: 4,

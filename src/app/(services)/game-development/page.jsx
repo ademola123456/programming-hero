@@ -3,10 +3,10 @@ import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/services/Gaming/Hero";
 
 import Features from "@/components/services/Gaming/Features";
+import Success from "@/components/services/Gaming/success";
 
 export const metadata = {
-  title:
-    "Features || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "Game Development || Brainwave ",
   description:
     "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
@@ -23,6 +23,7 @@ export default function GameDevelopment() {
           <Hero />
 
           <Features />
+          <Success />
         </div>
         <Footer2 />
       </div>

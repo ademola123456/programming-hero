@@ -136,7 +136,7 @@ export default function Features() {
                 className="text-center"
               >
                 <div className="text-white text-muted-foreground inline-block  text-sm font-semibold text-center">
-                  ★ Services
+                  ★ Solution
                 </div>
                 <h2
                   className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"

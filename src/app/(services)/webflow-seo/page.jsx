@@ -1,9 +1,12 @@
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
+import Hero from "@/components/services/Seo/Hero";
+import Features from "@/components/services/Seo/Features";
+import Success from "@/components/services/Seo/Success";
+import Integration from "@/components/services/Seo/Integration";
 export const metadata = {
-  title:
-    "Home || Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
+  title: "SEO || Brainwave ",
   description:
     "Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
 };
@@ -15,7 +18,12 @@ export default function page() {
         <div
           id="wrapper"
           className="wrap"
-        ></div>
+        >
+          <Hero />
+          <Features />
+          <Success />
+          <Integration />
+        </div>
         <Footer2 />
       </div>
     </>
