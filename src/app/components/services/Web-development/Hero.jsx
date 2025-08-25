@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Brands from "@/components/common/Brands";
-import { motion, AnimatePresence } from "framer-motion";
+// import { motion, AnimatePresence } from "framer-motion";
 const imagesColumn1 = ["/img-03.jpg", "/img-16.jpg", "/img-07.jpg"];
 
 const imagesColumn2 = ["/img-03.jpg", "/img-16.jpg", "/img-07.jpg"];
