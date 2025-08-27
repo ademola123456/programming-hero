@@ -11,21 +11,6 @@ export default function Nav() {
   const pathname = usePathname();
   return (
     <>
-      {/* <li>
-        <Link href={`/page-features`}>Features</Link>
-      </li>
-      <li>
-        <Link href={`/page-pricing`}>Pricing</Link>
-      </li>
-      <li>
-        <Link href={`/blog`}>Insights</Link>
-      </li>
-      <li>
-        <Link href={`/page-about`}>About</Link>
-      </li>
-      <li>
-        <Link href={`/page-contact`}>Contact</Link>
-      </li> */}
       <li className="has-dd-menu">
         <a
           role="button"
@@ -153,43 +138,24 @@ export default function Nav() {
               <div className=" row child-cols-3  uc-grid uc-grid-stack grid-stack">
                 {industries.map((item, i) => (
                   <li key={i}>
-                    {item.href.startsWith("/") ? (
+                    <div key={i}>
                       <Link
                         href={item.href}
-                        className={
-                          pathname.split("/")[1] == item.href.split("/")[1]
-                            ? "menuActive"
-                            : "inActiveMenu"
-                        }
+                        className="hstack items-start gap-2 p-2 text-none rounded-1-5 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 shadow-m"
                       >
-                        <div
-                          key={i}
-                          className="flex items-start  rounded-xl cursor-pointer transition"
-                        >
-                          {/* <div className="text-xl">{item.icon}</div> */}
-                          <div className="menu-stack-pr">
-                            <span className={item.iconClass}></span>
-                            <h5 className="font-semibold text-gray-900 text-sm">
-                              {item.title}
-                            </h5>
-                            <p className="text-gray-600 text-xs">
-                              {item.description}
-                            </p>
-                          </div>
+                        <span className="icon">
+                          <i
+                            className={`icon-2 ${item.iconClass} text-gray-900 dark:text-white`}
+                          />
+                        </span>
+                        <div className="panel">
+                          <h6 className="h6 fs-7 fw-medium mb-narrow">
+                            {item.title}
+                          </h6>
+                          <p className="fs-8 text-muted">{item.description}</p>
                         </div>
                       </Link>
-                    ) : (
-                      <a href={item.href}>
-                        {item.label}
-                        {item.badge && (
-                          <span
-                            className={`fw-bold fs-8 ms-1 px-1 border rounded-pill ${item.badge.className}`}
-                          >
-                            {item.badge.text}
-                          </span>
-                        )}
-                      </a>
-                    )}
+                    </div>
                   </li>
                 ))}
               </div>
@@ -207,9 +173,9 @@ export default function Nav() {
         <Link href={`/page-contact`}>Contact</Link>
       </li>
 
-      <li>
+      {/* <li>
         <Link href={`/blog`}>Blog</Link>
-      </li>
+      </li> */}
     </>
   );
 }

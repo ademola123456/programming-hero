@@ -57,7 +57,7 @@ export default function Hero() {
                 to captivate and engage players in the next era of gaming.
               </p>
             </div>
-            <div className=" vstack sm:hstack justify-center gap-3 items-center lg:gap-4 mb-6 sm:mb-8 lg:mb-9 max-w-650px mx-auto ">
+            <div className=" vstack sm:hstack justify-center gap-3 flex-sm-column items-center lg:gap-4 mb-6 sm:mb-8 lg:mb-9 max-w-650px mx-auto ">
               <button className="btn btn-md lg:btn-lg btn-primary shadow-md">
                 Start Your Game
               </button>

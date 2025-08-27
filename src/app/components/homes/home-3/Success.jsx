@@ -3,68 +3,7 @@ import Image from "next/image";
 
 export default function CaseStudyCard() {
   return (
-    // <div className="flex flex-col md:flex-row items-center md:items-start bg-white shadow-md rounded-2xl overflow-hidden border border-gray-200 max-w-5xl mx-auto">
-    //   {/* Left Image */}
-    //   <div className="md:w-1/2 w-full bg-black flex items-center justify-center p-4">
-    //     {/* Example image (replace with your own) */}
-    //     <Image
-    //       src="/p1.avif"
-    //       alt="Hopstack project"
-    //       width={400}
-    //       height={280}
-    //       className="rounded-lg object-cover shadow-lg"
-    //     />
-    //   </div>
-
-    //   {/* Right Content */}
-    //   <div className="md:w-1/2 w-full p-6 flex flex-col justify-between">
-    //     {/* Company */}
-    //     <h3 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
-    //       <span className="bg-gray-900 text-white w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold">
-    //         H
-    //       </span>
-    //       Hopstack
-    //     </h3>
-
-    //     {/* Case Study Text */}
-    //     <p className="text-sm text-gray-700 mt-3 leading-relaxed">
-    //       Increase In Organic Traffic by{" "}
-    //       <span className="font-bold">266.4%</span> with new revamped
-    //       webflow website. DA increased from 24 to 37 in 6 months.
-    //     </p>
-
-    //     {/* Tags */}
-    //     <div className="flex flex-wrap gap-2 mt-3">
-    //       <span className="px-3 py-1 text-xs bg-gray-100 text-gray-700 rounded-full">
-    //         B2B SaaS
-    //       </span>
-    //       <span className="px-3 py-1 text-xs bg-gray-100 text-gray-700 rounded-full">
-    //         Logistics
-    //       </span>
-    //       <span className="px-3 py-1 text-xs bg-gray-100 text-gray-700 rounded-full">
-    //         Fulfillment
-    //       </span>
-    //     </div>
-
-    //     {/* Funding Info */}
-    //     <div className="mt-6 border-t border-gray-200 pt-4">
-    //       <p className="text-xl font-bold text-gray-900">
-    //         $2.7M{" "}
-    //         <span className="text-gray-600 font-medium text-base">
-    //           in funding
-    //         </span>
-    //       </p>
-    //       <div className="flex gap-3 mt-2 text-sm text-gray-600">
-    //         <span>UI/UX Design</span>
-    //         <span>•</span>
-    //         <span>Webflow</span>
-    //         <span>•</span>
-    //         <span>SEO</span>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
+    
     <div
       id="features"
       className="features section panel  scrollSpysection"

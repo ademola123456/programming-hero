@@ -6,9 +6,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Thumbs, EffectFade, Autoplay, Pagination } from "swiper/modules";
 
 const images = [
-  { src: "/p1.avif", alt: "Portfolio 1" },
-  { src: "/p2.avif", alt: "Portfolio 2" },
-  { src: "/p3.avif", alt: "Portfolio 3" },
+  { src: "/p5.avif", alt: "Portfolio 1" },
+  { src: "/p5.avif", alt: "Portfolio 2" },
+  { src: "/p5.avif", alt: "Portfolio 3" },
   { src: "/p4.avif", alt: "Portfolio 4" },
   { src: "/p5.avif", alt: "Portfolio 5" },
   { src: "/p6.avif", alt: "Portfolio 6" },
@@ -200,37 +200,36 @@ export default function Hero() {
               <p className=""></p>
             </div>
 
-            <div
-              className="hero-scene panel max-w-xlg mx-auto "
-              data-anime="targets: >*; scale: [0.9, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});"
-            >
+            <div className=" d-flex panel py-5 ">
               <Swiper
                 modules={[Autoplay]}
-                spaceBetween={30}
-                slidesPerView={"auto"} // show multiple slides
+                slidesPerView={3} // show multiple slides
                 loop={true} // infinite loop
                 speed={1000} // lower = slower scroll
+                centeredSlides={true}
+                centeredSlidesBounds={true}
                 autoplay={{
                   delay: 2500, // no delay between slides
                   disableOnInteraction: false,
                 }}
+                breakpoints={{
+                  640: {
+                    slidesPerView: 1,
+                    centeredSlides: false,
+                    centeredSlidesBounds: false,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                    spaceBetween: 80,
+                  },
+                }}
                 freeMode={true} // smooth continuous scroll
                 // freeModeMomentum={false}
-                className="mySwiper overflow-hidden py-5"
-                style={{
-                  gridColumnGap: "2em",
-                  gridRowGap: "2em",
-                  flexFlow: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  // display: "flex",
-                  // width: "920px",
-                  height: "240px",
-                }}
+                className="mySwiper "
               >
                 {[...images, ...images].map((img, i) => (
                   <SwiperSlide
-                    className="relative"
+                    className=" swiper-slide"
                     style={{
                       display: "inline-block px-4",
                       width: "320px",

@@ -57,7 +57,7 @@ export const ServiceItems = [
     icon: "🔗",
   },
   {
-    href: "/digital_marketing",
+    href: "/digital-marketing",
     title: "Digital Marketing",
     desc: "Skyrocket website performance, conversions, and ROI.",
     icon: "📈",

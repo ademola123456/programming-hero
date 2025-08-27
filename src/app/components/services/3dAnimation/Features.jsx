@@ -76,42 +76,42 @@ import { motion } from "framer-motion";
 
 const solutionsData = [
   {
-    icon: Podcast,
+    icon: "unicon-chart-pie",
     title: "3D Character Modeling",
     description:
       "Design intricate 3D characters with detailed textures and rigging for lifelike movements in animations and games.",
     image: "/seo-marketing.jpg",
   },
   {
-    icon: Radio,
+    icon: "unicon-activity",
     title: "Realistic Rendering",
     description:
       "Produce high-quality renders with advanced lighting and shading techniques to enhance visual realism.",
     image: "/social-media.jpg",
   },
   {
-    icon: Radar,
+    icon: "unicon-layers",
     title: "Virtual Reality Integration",
     description:
       "Incorporate 3D animations into VR experiences for immersive training, gaming, or interactive marketing.",
     image: "/paid-ads.jpg",
   },
   {
-    icon: Laptop,
+    icon: "unicon-layers",
     title: "Dynamic Simulations",
     description:
       "Create realistic physics-based animations like fluid dynamics, cloth simulation, and particle effects.",
     image: "/email-marketing.jpg",
   },
   {
-    icon: Mails,
+    icon: "unicon-fire",
     title: "Cinematic Sequences",
     description:
       "Develop breathtaking cinematic scenes with camera work and storytelling for films and trailers.",
     image: "/influencer-marketing.jpg",
   },
   {
-    icon: TrendingUp,
+    icon: "unicon-laptop",
     title: "Product Visualization",
     description:
       "Showcase products with 3D animations and renderings to highlight features and boost marketing efforts.",
@@ -180,11 +180,11 @@ export default function Features() {
                           <div className="vstack panel min-h-250px">
                             {/* <i className="position-absolute top-0 ltr:end-0 rtl:start-0 icon-2 unicon-arrow-up-right rtl:-rotate-90" /> */}
                             <div className="vstack justify-between gap-2 h-100">
-                              <IconComponent
+                              {/* <IconComponent
                                 className="text-muted-foreground h-8 w-8 transition-colors group-hover:text-orange-500"
                                 aria-hidden="true"
-                              />
-                              {/* <i className={`icon icon-4 ${feature.icon}`} /> */}
+                              /> */}
+                              <i className={`icon icon-4 ${feature.icon}`} />
                               <div className="panel">
                                 <div className="vstack gap-1">
                                   <h3 className="title h5 m-0 text-inherit">

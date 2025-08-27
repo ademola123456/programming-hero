@@ -28,7 +28,7 @@ export const menuItems = [
         label: "Digital Marketing",
       },
       {
-        href: "/Branding",
+        href: "/branding",
         label: "Branding",
       },
       {
@@ -51,7 +51,7 @@ export const menuItems = [
     label: "Industries",
     subItems: [
       {
-        href: "/b2b",
+        href: "/b2b-saas",
         label: "B2B SaaS",
       },
       {
@@ -63,7 +63,7 @@ export const menuItems = [
         label: "Web3",
       },
       {
-        href: "/Information-technology",
+        href: "/information-technology",
         label: "Information Technology",
       },
       {
@@ -71,20 +71,20 @@ export const menuItems = [
         label: "Financial Services",
       },
       {
-        href: "/healthcare",
+        href: "/health-care",
         label: "Healthcare",
       },
       {
-        href: "/ecommerce",
+        href: "/e-commerce",
         label: "E-commerce",
       },
       {
-        href: "/gamin",
+        href: "/gaming",
         label: "Gaming",
       },
       {
-        href: "/animation",
-        label: "Animation",
+        href: "/hospitality",
+        label: "Hospitalility (Real Estate)",
       },
     ],
   },
@@ -108,11 +108,7 @@ export const menuItems = [
     href: "/contact_us",
     label: "Contact Us",
   },
-  {
-    id: 6,
-    href: "/blog",
-    label: "Blog",
-  },
+
   {
     id: 7,
     label: "Other pages",

@@ -1,6 +1,6 @@
 export const industries = [
   {
-    href: "/B2b-Saas",
+    href: "/b2b-saas",
     iconClass: "unicon-checkmark",
     title: "B2B Saas",
     description: "Web solutions for scaling B2B SaaS startups and SMEs",
@@ -12,7 +12,7 @@ export const industries = [
     description: "The latest industry reports, updates and info.",
   },
   {
-    href: "/ecommerce",
+    href: "/e-commerce",
     iconClass: "unicon-increase-level",
     title: "E-commerce",
     description: "Suite of tools that cover all aspects of your business.",
@@ -36,7 +36,7 @@ export const industries = [
     description: "Assign tasks, share files, and communicate with your team.",
   },
   {
-    href: "/web-3",
+    href: "/web3",
     iconClass: "unicon-chart-venn-diagram",
     title: "Web3",
     description: "Assign tasks, share files, and communicate with your team.",

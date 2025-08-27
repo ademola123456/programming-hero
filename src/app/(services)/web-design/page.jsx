@@ -1,6 +1,11 @@
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
+import Hero from "@/components/services/web-design/Hero";
+import Features from "@/components/services/web-design/Features";
+import Success from "@/components/services/web-design/Success";
+import Projects from "@/components/services/web-design/Projects";
+import AnimatedHero from "@/components/services/web-design/AnimatedHero";
 export const metadata = {
   title: "Web Design || Brainwave ",
   description:
@@ -14,7 +19,13 @@ export default function page() {
         <div
           id="wrapper"
           className="wrap"
-        ></div>
+        >
+          <Hero />
+          <Features />
+          <Projects />
+          <AnimatedHero />
+          <Success />
+        </div>
         <Footer2 />
       </div>
     </>

@@ -1,4 +1,3 @@
-import { title } from "process";
 import Home3 from "./(homes)/home-3/page";
 export const metadata = {
   title:

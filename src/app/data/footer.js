@@ -74,7 +74,7 @@ export const MainFooterLinks = [
         label: "Digital Marketing",
       },
       {
-        href: "/Branding",
+        href: "/branding",
         label: "Branding",
       },
       {
@@ -95,24 +95,24 @@ export const MainFooterLinks = [
   {
     header: "Industry",
     links: [
-      { href: "/B2b-Saas", label: "B2B SaaS" },
+      { href: "/b2b-saas", label: "B2B SaaS" },
       { href: "/information-technology", label: "Information Technology" },
-      { href: "/ecommerce", label: "E-commerce" },
+      { href: "/e-commerce", label: "E-commerce" },
       { href: "/ai", label: "Artificial Inetelligence" },
       { href: "/finance-service", label: "Finance Service" },
-      { href: "/web-3", label: "Web3" },
+      { href: "/web3", label: "Web3" },
       { href: "/health-care", label: "Health Care" },
       { href: "/gaming", label: "Gaming" },
+      { href: "/hospitality", label: "Hospitalility (Real Estate)" },
     ],
   },
   {
-    header: "Shop",
+    header: "Other Pages",
     links: [
       { href: "/about", label: "About" },
       { href: "/portfolio", label: "Portfolio" },
       { href: "/contact", label: "Contact" },
       { href: "/resource", label: "Resource" },
-      { href: "/blog", label: "Blog" },
     ],
   },
   // {
