@@ -75,44 +75,44 @@ import Link from "next/link";
 const solutionsData = [
   {
     icon: Gamepad2,
-    title: "Web Design Tailored for B2B SaaS",
+    title: "Custom Fintech Website Design",
     description:
-      "Our designs are crafted to resonate with your target audience, delivering a seamless user experience that enhances customer engagement..",
+      "Visually appealing and user-friendly designs are crafted to engage visitors and encourage exploration, helping your site stand out.",
     // image: "/game-worlds.jpg",
   },
   {
     icon: Slack,
-    title: "B2B SaaS Webflow Development",
+    title: "Fintech Webflow Development",
     description:
-      "We build scalable, secure, and high-performing Webflow websites for enterprise clients, ensuring your B2B SaaS platform can handle rapid growth.",
+      "Our Webflow development creates responsive, fast-loading websites that are easy to update, ensuring your fintech brand stands out.",
     image: "/graphics.jpg",
   },
   {
     icon: TrendingUp,
-    title: "B2B SaaS-Specific SEO Strategy",
+    title: "Advanced SEO Strategy",
     description:
-      "Boost your website's visibility with our targeted Webflow B2B SaaS SEO strategies. We focus on optimizing your site to rank high and grow faster.",
+      "Our SEO techniques boost your fintech website’s visibility, helping you rank higher on search engines and attract organic traffic.",
     image: "/cross-platform.jpg",
   },
   {
     icon: Users,
-    title: "Growth Marketing for B2B SaaS",
+    title: "Financial Services Growth Marketing",
     description:
-      "Data-driven strategies to amplify your B2B SaaS Webflow website’s performance, conversions, advertising and ROI",
+      "Data-driven strategies to amplify your Fintech Webflow website’s performance, conversions, advertising and ROI",
     image: "/multiplayer.jpg",
   },
   {
     icon: Radar,
     title: "Migrate to Webflow",
     description:
-      "Smooth transitions guaranteed from any platform. Migrate your B2B SaaS WordPress site to Webflow. Not just WordPress -- Wix, Squarespace, figma.",
+      "Smooth transitions guaranteed. Migrations from WordPress to Webflow, Squarespace to Webflow, and Wix to Webflow are our specialties.",
     image: "/ai-mechanics.jpg",
   },
   {
     icon: Rocket,
-    title: "B2B SaaS Webflow Maintenance & Support",
+    title: "Ongoing Webflow Maintenance",
     description:
-      "24/7 Instant webflow maintenance and support for B2B SaaS businesses. You take of your growth and we take care of your site.",
+      "24/7 Instant webflow maintenance and support for fintech businesses. You take of your growth and we take care of your site.",
     image: "/post-launch.jpg",
   },
 ];
@@ -133,13 +133,14 @@ export default function Services() {
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Our Services for
-                <span className="text-primary">B2B SaaS</span> Growth.
+                Fintech Services for
+                <span className="text-primary"> Digital</span> Growth.
               </h2>
               <h5 className=" h5 lg:h5 xl:h4 m-0 text-center max-w-550px mx-auto">
-                We specialize in building high-performing websites for B2B SaaS
-                companies, combining deep industry knowledge with design that
-                converts.
+                we provide a range of specialized services designed to elevate
+                your fintech brand and enhance your online presence. Our expert
+                team focuses on creating compelling websites that capture
+                attention and drive engagement.
               </h5>
               <div className="panel">
                 <div

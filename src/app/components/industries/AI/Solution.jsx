@@ -15,30 +15,30 @@ import { motion } from "framer-motion";
 const solutionsData = [
   {
     icon: Laptop,
-    title: "UI/UX Design",
+    title: "Deep Expertise in AI Search Trends",
     description:
-      "Our expert Webflow design team create stunning, user-centered websites that drive conversions through strategic UI/UX design, ensuring your brand stands out.",
+      "We understand the unique challenges and opportunities in the AI sector. Our experience working with AI startups and enterprises allows us to design websites that resonate with your audience and showcase the cutting-edge innovation of your brand.",
     tags: ["Web design", "UX Research", "Figma Design"],
   },
   {
     icon: Mails,
-    title: "Webflow Development",
+    title: "Tailored Solutions for AI Companies",
     description:
-      "Transform your vision into reality with our expert Webflow development services. Our certified developers create responsive, scalable websites that perform.",
+      "Every AI brand has its own story and vision. At Webyansh, we don’t believe in one-size-fits-all. We craft custom web solutions that reflect your business goals, whether it's launching a new product, showcasing services, or driving user engagement.",
     tags: ["Webflow Design", "Webflow Experts"],
   },
   {
     icon: TrendingUp,
-    title: "Webflow SEO",
+    title: "AI-Driven SEO Strategies",
     description:
-      "Boost your online visibility with our comprehensive Webflow SEO services, ensuring your website ranks and performs. Rank higher and grow faster with our expert SEO services.",
+      "Stay ahead with SEO optimized for 2025’s AI-powered search algorithms, boosting visibility for AI Brand not only in google or bing search but also in LLMS. We go beyound SEO i.e., GEO",
     tags: ["Webflow SEO", "Link Building", "Global SEO"],
   },
   {
     icon: FlaskConical,
-    title: "Growth Marketing",
+    title: "Fast, Secure, and Scalable AI Websites",
     description:
-      "Turn your Webflow website into a lead generating engine. We combine UX with data to boost conversions, maximize ROI, & grow your brand.",
+      "AI businesses need websites that perform at the highest level. We specialize in Webflow development, ensuring that your site is fast, secure, and able to scale as your company grows, accommodating high traffic and complex functionality.",
     tags: [
       "A/B & Multivariate Testing",
       "Funnels",
@@ -50,9 +50,9 @@ const solutionsData = [
   },
   {
     icon: ArrowRightLeft,
-    title: "Webflow Migration",
+    title: "Compelling Web Design for AI brands",
     description:
-      "Smooth transitions guaranteed. Migrations from WordPress to Webflow, Squarespace to Webflow, and Wix to Webflow are our specialties.",
+      "Your website is the face of your brand. We combine creative design with AI industry insights to create visually stunning websites that not only look great but also communicate the sophistication of your technology.",
     tags: [
       "Migrate to Webflow",
       "Wix to Webflow",
@@ -62,9 +62,9 @@ const solutionsData = [
   },
   {
     icon: Slack,
-    title: "Webflow Maintenance and Support",
+    title: "Long-Term Growth and Support",
     description:
-      "We provide post launch updates, performance checks, and troubleshooting to keep your Webflow site secure and optimized.",
+      "We are committed to the success of your AI business beyond just the launch. Our websites are built for long-term growth, and we offer ongoing support to ensure your site continues to meet the evolving needs of your brand.",
     tags: [
       "Webflow Maintenance",
       "Webflow Support",
@@ -92,15 +92,21 @@ export default function Solutions() {
                 className="text-center"
               >
                 <div className="text-white text-muted-foreground inline-block  text-sm font-semibold text-center">
-                  ★ Solution
+                  ★ Why Us
                 </div>
                 <h2
                   className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                   data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
                 >
-                  Tailored Digital Marketing
-                  <span className="text-primary"> Solutions.</span>
+                  Why AI Startups Choose
+                  <span className="text-primary"> BrainWave?</span>
                 </h2>
+                <p className="fs-6 xl:fs-5 text-black dark:text-white text-opacity-70">
+                  We combines AI industry expertise with cutting-edge web
+                  design. We create visually stunning, SEO-optimized websites
+                  that effectively showcase your AI solutions, driving
+                  engagement and growth for your innovative brand.
+                </p>
               </motion.div>
               <div className="panel">
                 <div

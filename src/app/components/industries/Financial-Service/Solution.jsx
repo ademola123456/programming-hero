@@ -15,30 +15,30 @@ import { motion } from "framer-motion";
 const solutionsData = [
   {
     icon: Laptop,
-    title: "UI/UX Design",
+    title: "Top Fintech Website Designs",
     description:
-      "Our expert Webflow design team create stunning, user-centered websites that drive conversions through strategic UI/UX design, ensuring your brand stands out.",
+      "Ranked among the best fintech websites, our designs are crafted with innovation and functionality at the forefront.",
     tags: ["Web design", "UX Research", "Figma Design"],
   },
   {
     icon: Mails,
-    title: "Webflow Development",
+    title: "Future-Proof Technology & Compliance",
     description:
-      "Transform your vision into reality with our expert Webflow development services. Our certified developers create responsive, scalable websites that perform.",
+      "Our solutions are built with the future in mind, ensuring your fintech platform stays adaptable and compliant with ever-evolving security regulations.",
     tags: ["Webflow Design", "Webflow Experts"],
   },
   {
     icon: TrendingUp,
-    title: "Webflow SEO",
+    title: "Optimized for Speed and Performance",
     description:
-      "Boost your online visibility with our comprehensive Webflow SEO services, ensuring your website ranks and performs. Rank higher and grow faster with our expert SEO services.",
+      "We build lightning-fast fintech websites that enhance UX and reduce bounce rates, ensuring smooth performance even under heavy traffic.",
     tags: ["Webflow SEO", "Link Building", "Global SEO"],
   },
   {
     icon: FlaskConical,
-    title: "Growth Marketing",
+    title: "Fintech Support & Ongoing Optimization",
     description:
-      "Turn your Webflow website into a lead generating engine. We combine UX with data to boost conversions, maximize ROI, & grow your brand.",
+      "We offer ongoing support and optimization services, continuously refining your fintech site based on performance data and evolving trends to keep you ahead of the competition.",
     tags: [
       "A/B & Multivariate Testing",
       "Funnels",
@@ -50,9 +50,9 @@ const solutionsData = [
   },
   {
     icon: ArrowRightLeft,
-    title: "Webflow Migration",
+    title: "Innovative Solutions with Scalability",
     description:
-      "Smooth transitions guaranteed. Migrations from WordPress to Webflow, Squarespace to Webflow, and Wix to Webflow are our specialties.",
+      "Our development approach is built for growth, ensuring your fintech platform can scale effortlessly as your business expands and evolves, without compromising on performance.",
     tags: [
       "Migrate to Webflow",
       "Wix to Webflow",
@@ -62,9 +62,9 @@ const solutionsData = [
   },
   {
     icon: Slack,
-    title: "Webflow Maintenance and Support",
+    title: "Future-Ready Webflow Fintech Solutions",
     description:
-      "We provide post launch updates, performance checks, and troubleshooting to keep your Webflow site secure and optimized.",
+      "We build webflow websites adaptable to 2025 innovations like AI-powered Fintech websites and latest webflow web design treands. We dont follow the trend, we create trends in tech industry.",
     tags: [
       "Webflow Maintenance",
       "Webflow Support",
@@ -98,9 +98,16 @@ export default function Solutions() {
                   className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                   data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
                 >
-                  Tailored Digital Marketing
-                  <span className="text-primary"> Solutions.</span>
+                  Why Choose BrainWave for your
+                  <span className="text-primary"> Fintech </span>Brand?
                 </h2>
+                <p className="fs-6 xl:fs-5 py-4 text-black dark:text-white text-opacity-70">
+                  Partner with a Webflow agency that truly understands the
+                  distinctive challenges facing technology businesses and
+                  delivers solutions that accelerate growth, enhance user
+                  experience, and effectively showcase your innovative
+                  capabilities.
+                </p>
               </motion.div>
               <div className="panel">
                 <div

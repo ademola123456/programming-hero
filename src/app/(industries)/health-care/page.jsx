@@ -1,11 +1,13 @@
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
-import Hero from "@/components/industries/B2b/Hero";
-import Services from "@/components/industries/B2b/Services";
-import AnimatedHero from "@/components/industries/B2b/AnimatedHero";
+import Hero from "@/components/industries/Healthcare/Hero";
+import Services from "@/components/industries/Healthcare/Services";
+import AnimatedHero from "@/components/industries/Healthcare/AnimatedHero";
+import CaseStudyCard from "@/components/industries/Healthcare/CaseStudy";
+import Solutions from "@/components/industries/Healthcare/Solution";
 export const metadata = {
-  title: "B2B || Brainwave ",
+  title: "Health care || Brainwave ",
   description:
     "Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
 };
@@ -18,9 +20,11 @@ export default function page() {
           id="wrapper"
           className="wrap"
         >
-          {/* <Hero />
+          <Hero />
+          <AnimatedHero />
           <Services />
-          <AnimatedHero /> */}
+          <CaseStudyCard />
+          <Solutions />
         </div>
         <Footer2 />
       </div>

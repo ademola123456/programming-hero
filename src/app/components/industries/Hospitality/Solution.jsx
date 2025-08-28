@@ -15,30 +15,30 @@ import { motion } from "framer-motion";
 const solutionsData = [
   {
     icon: Laptop,
-    title: "UI/UX Design",
+    title: "Expertise in Hospitality Industry",
     description:
-      "Our expert Webflow design team create stunning, user-centered websites that drive conversions through strategic UI/UX design, ensuring your brand stands out.",
+      "With years of experience, we understand the unique needs of hotels, resorts, and BnBs. Our team specializes in hospitality web design, understanding the unique needs of hotels, restaurants, and management companies.",
     tags: ["Web design", "UX Research", "Figma Design"],
   },
   {
     icon: Mails,
-    title: "Webflow Development",
+    title: "Scalable & Secure Websites",
     description:
-      "Transform your vision into reality with our expert Webflow development services. Our certified developers create responsive, scalable websites that perform.",
+      "We prioritize security, building secure hospitality websites that ensure property data is safe and secure.",
     tags: ["Webflow Design", "Webflow Experts"],
   },
   {
     icon: TrendingUp,
-    title: "Webflow SEO",
+    title: "Portfolio of Success",
     description:
-      "Boost your online visibility with our comprehensive Webflow SEO services, ensuring your website ranks and performs. Rank higher and grow faster with our expert SEO services.",
+      "We've created some of the best hospitality websites and hotel web pages in the industry, showcasing our creativity and skill.",
     tags: ["Webflow SEO", "Link Building", "Global SEO"],
   },
   {
     icon: FlaskConical,
-    title: "Growth Marketing",
+    title: "Increased Direct Bookings",
     description:
-      "Turn your Webflow website into a lead generating engine. We combine UX with data to boost conversions, maximize ROI, & grow your brand.",
+      "Boost your revenue by reducing reliance on third-party booking platforms. Strategic call-to-actions and user-friendly interfaces drive more bookings and reservations.",
     tags: [
       "A/B & Multivariate Testing",
       "Funnels",
@@ -50,9 +50,9 @@ const solutionsData = [
   },
   {
     icon: ArrowRightLeft,
-    title: "Webflow Migration",
+    title: "Enhanced User Experience",
     description:
-      "Smooth transitions guaranteed. Migrations from WordPress to Webflow, Squarespace to Webflow, and Wix to Webflow are our specialties.",
+      "Intuitive navigation and fast-loading pages keep visitors engaged and encourage bookings.",
     tags: [
       "Migrate to Webflow",
       "Wix to Webflow",
@@ -62,9 +62,9 @@ const solutionsData = [
   },
   {
     icon: Slack,
-    title: "Webflow Maintenance and Support",
+    title: "Fast Turnaround & Ongoing Support",
     description:
-      "We provide post launch updates, performance checks, and troubleshooting to keep your Webflow site secure and optimized.",
+      "Time is crucial in hospitality, which is why we deliver high-quality websites quickly and efficiently. After launch, we provide ongoing support and updates, ensuring your website continues to perform at its best.",
     tags: [
       "Webflow Maintenance",
       "Webflow Support",
@@ -98,8 +98,13 @@ export default function Solutions() {
                   className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                   data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
                 >
-                  Tailored Digital Marketing
-                  <span className="text-primary"> Solutions.</span>
+                  Why Choose
+                  <span className="text-primary"> BrainWave?</span>
+                  <p className="fs-6 py-4 lg:fs-5 dark:text-white">
+                    With extensive experience in the hospitality sector, our
+                    Webflow specialists deliver stunning, high-performing
+                    websites.
+                  </p>
                 </h2>
               </motion.div>
               <div className="panel">

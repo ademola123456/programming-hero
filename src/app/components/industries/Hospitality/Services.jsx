@@ -75,44 +75,44 @@ import Link from "next/link";
 const solutionsData = [
   {
     icon: Gamepad2,
-    title: "Web Design Tailored for B2B SaaS",
+    title: "Custom Hotel Website Design",
     description:
-      "Our designs are crafted to resonate with your target audience, delivering a seamless user experience that enhances customer engagement..",
+      "Tailor-made designs for hotels, resorts, and bed & breakfasts, ensuring a seamless user experience that reflects your brand’s uniqueness.",
     // image: "/game-worlds.jpg",
   },
   {
     icon: Slack,
-    title: "B2B SaaS Webflow Development",
+    title: "Responsive Webflow Development",
     description:
-      "We build scalable, secure, and high-performing Webflow websites for enterprise clients, ensuring your B2B SaaS platform can handle rapid growth.",
+      "Our sites are fully optimized for mobile, tablet, and desktop, ensuring a great experience across all devices. Webflow has the best CMS to add new properties and integrate using any booking engine APIs.",
     image: "/graphics.jpg",
   },
   {
     icon: TrendingUp,
-    title: "B2B SaaS-Specific SEO Strategy",
+    title: "SEO for Hospitality Websites",
     description:
-      "Boost your website's visibility with our targeted Webflow B2B SaaS SEO strategies. We focus on optimizing your site to rank high and grow faster.",
+      "Get found by potential guests with our expert SEO services, optimized for hotel-related keywords.",
     image: "/cross-platform.jpg",
   },
   {
     icon: Users,
-    title: "Growth Marketing for B2B SaaS",
+    title: "Real-Estate Growth Marketing",
     description:
-      "Data-driven strategies to amplify your B2B SaaS Webflow website’s performance, conversions, advertising and ROI",
+      "Data-driven strategies to amplify your Hospitality Webflow website’s performance, conversions, advertising and ROI",
     image: "/multiplayer.jpg",
   },
   {
     icon: Radar,
     title: "Migrate to Webflow",
     description:
-      "Smooth transitions guaranteed from any platform. Migrate your B2B SaaS WordPress site to Webflow. Not just WordPress -- Wix, Squarespace, figma.",
+      "Smooth transitions guaranteed. Migrations from WordPress to Webflow, Squarespace to Webflow, and Wix to Webflow are our specialties.",
     image: "/ai-mechanics.jpg",
   },
   {
     icon: Rocket,
-    title: "B2B SaaS Webflow Maintenance & Support",
+    title: "Booking System Integration",
     description:
-      "24/7 Instant webflow maintenance and support for B2B SaaS businesses. You take of your growth and we take care of your site.",
+      "We integrate robust booking systems into your site, streamlining reservations for your guests. We also provide seamless integrations with your existing hotel management systems to simplify operations.",
     image: "/post-launch.jpg",
   },
 ];
@@ -133,13 +133,13 @@ export default function Services() {
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Our Services for
-                <span className="text-primary">B2B SaaS</span> Growth.
+                <span className="text-primary">Hospitality</span> website
+                Tailored to Your Needs
               </h2>
               <h5 className=" h5 lg:h5 xl:h4 m-0 text-center max-w-550px mx-auto">
-                We specialize in building high-performing websites for B2B SaaS
-                companies, combining deep industry knowledge with design that
-                converts.
+                From custom hotel website design to booking system integration,
+                we offer tailored services that meet the unique needs of the
+                hospitality industry, ensuring an exceptional user experience.
               </h5>
               <div className="panel">
                 <div

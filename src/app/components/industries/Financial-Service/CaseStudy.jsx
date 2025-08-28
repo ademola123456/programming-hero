@@ -21,15 +21,16 @@ export default function CaseStudyCard() {
                 </span>
               </div>
               <h2 className="h3 lg:h2 xl:h1 m-0 px-2">
-                Success
+                Selected
                 <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
-                  Stories
+                  Fintech Success
                 </span>{" "}
-                .
+                Stories .
               </h2>
               <p className="fs-6 xl:fs-5 text-black dark:text-white text-opacity-70">
-                Discover how our innovative web design and custom Webflow
-                solutions empower businesses to achieve remarkable results.
+                Explore our portfolio of exceptional web design and custom
+                Webflow websites that drive results for Financial Service
+                businesses worldwide.
               </p>
             </div>
             <div className="row child-cols-12  col-match g-2">

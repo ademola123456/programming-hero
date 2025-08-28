@@ -144,13 +144,14 @@ export default function Hero() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                Scalable B2B SaaS Webflow Design and Development
+                Scalable Web3 Webflow Design and Development
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                What if your website didn’t just look great but actually drove
-                leads and conversions? At BrainWave, we build powerful sites
-                that fuel B2B SaaS growth. Ready to turn visitors into
-                customers?
+                At BrainWave, we build Web3-ready websites and Webflow platforms
+                optimized for blockchain startups, NFT marketplaces, and DeFi
+                protocols. Our 2025-forward approach combines wallet-integrated
+                UX design with enterprise-grade blockchain SEO to help you
+                acquire users and investors.
               </p>
             </div>
             <div className=" vstack sm:hstack justify-center gap-3 flex-sm-column items-center lg:gap-4 mb-6 sm:mb-8 lg:mb-9 max-w-650px mx-auto ">
@@ -158,7 +159,7 @@ export default function Hero() {
                 Book a Call
               </button>
               <button className="btn  btn-md lg:btn-lg bg-white text-gray-600 rounded-lg  shadow-md hover:bg-opacity-40 dark:bg-gray-700 dark:bg-opacity-50 dark:text-white">
-                Explore Our Work
+                Explore All Projects
               </button>
             </div>
             <div

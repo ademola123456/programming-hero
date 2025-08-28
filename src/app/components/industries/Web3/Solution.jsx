@@ -15,30 +15,30 @@ import { motion } from "framer-motion";
 const solutionsData = [
   {
     icon: Laptop,
-    title: "UI/UX Design",
+    title: "Web3-Specific Expertise",
     description:
-      "Our expert Webflow design team create stunning, user-centered websites that drive conversions through strategic UI/UX design, ensuring your brand stands out.",
+      "Our team lives in the decentralized world, mastering emerging trends like ZK-Rollups and tokenized asset frameworks since 2020.",
     tags: ["Web design", "UX Research", "Figma Design"],
   },
   {
     icon: Mails,
-    title: "Webflow Development",
+    title: "Proven Blockchain Results",
     description:
-      "Transform your vision into reality with our expert Webflow development services. Our certified developers create responsive, scalable websites that perform.",
+      "Increased organic traffic by 300% for NFT marketplaces and boosted DAO membership sign-ups through conversion-optimized designs.",
     tags: ["Webflow Design", "Webflow Experts"],
   },
   {
     icon: TrendingUp,
-    title: "Webflow SEO",
+    title: "SEO-Proven in 18 Chains",
     description:
-      "Boost your online visibility with our comprehensive Webflow SEO services, ensuring your website ranks and performs. Rank higher and grow faster with our expert SEO services.",
+      "Rank #1 for “Ethereum dApp development” and 94 other high-value keywords across Polygon, Solana, and Cosmos ecosystems..",
     tags: ["Webflow SEO", "Link Building", "Global SEO"],
   },
   {
     icon: FlaskConical,
-    title: "Growth Marketing",
+    title: "Compliance-First Approach",
     description:
-      "Turn your Webflow website into a lead generating engine. We combine UX with data to boost conversions, maximize ROI, & grow your brand.",
+      "Auto-updating KYC/AML components and SEC-ready disclosure templates for security token offerings.",
     tags: [
       "A/B & Multivariate Testing",
       "Funnels",
@@ -50,9 +50,9 @@ const solutionsData = [
   },
   {
     icon: ArrowRightLeft,
-    title: "Webflow Migration",
+    title: "Full Web3 Tech Stack",
     description:
-      "Smooth transitions guaranteed. Migrations from WordPress to Webflow, Squarespace to Webflow, and Wix to Webflow are our specialties.",
+      "From Figma to Webflow to IPFS decentralized storage – we handle every layer of your project’s digital presence.",
     tags: [
       "Migrate to Webflow",
       "Wix to Webflow",
@@ -62,9 +62,9 @@ const solutionsData = [
   },
   {
     icon: Slack,
-    title: "Webflow Maintenance and Support",
+    title: "Future-Ready Webflow Web3 Solutions",
     description:
-      "We provide post launch updates, performance checks, and troubleshooting to keep your Webflow site secure and optimized.",
+      "We build webflow websites adaptable to 2025 innovations like AI-powered oracles and decentralized identity systems.",
     tags: [
       "Webflow Maintenance",
       "Webflow Support",
@@ -98,8 +98,8 @@ export default function Solutions() {
                   className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                   data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
                 >
-                  Tailored Digital Marketing
-                  <span className="text-primary"> Solutions.</span>
+                  Why Blockchain Startups Choose
+                  <span className="text-primary"> BrianWave?</span>
                 </h2>
               </motion.div>
               <div className="panel">

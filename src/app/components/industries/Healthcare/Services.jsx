@@ -75,30 +75,31 @@ import Link from "next/link";
 const solutionsData = [
   {
     icon: Gamepad2,
-    title: "Web Design Tailored for B2B SaaS",
+    title:
+      "Custom website design for hospitals, clinics, and medical practices",
     description:
-      "Our designs are crafted to resonate with your target audience, delivering a seamless user experience that enhances customer engagement..",
+      "We craft fully customized web pages for hospitals, integrating patient portals, appointment scheduling, and other essential features, ensuring an optimal user experience.",
     // image: "/game-worlds.jpg",
   },
   {
     icon: Slack,
-    title: "B2B SaaS Webflow Development",
+    title: "Medical Practice Webflow Development",
     description:
-      "We build scalable, secure, and high-performing Webflow websites for enterprise clients, ensuring your B2B SaaS platform can handle rapid growth.",
+      "For healthcare providers, clinics, and medical practices, we deliver functional Webflow websites that meet all regulatory requirements and offer superior user experiences.",
     image: "/graphics.jpg",
   },
   {
     icon: TrendingUp,
-    title: "B2B SaaS-Specific SEO Strategy",
+    title: "Healthcare Provider SEO & Performance Optimization",
     description:
-      "Boost your website's visibility with our targeted Webflow B2B SaaS SEO strategies. We focus on optimizing your site to rank high and grow faster.",
+      "We optimize healthcare websites for search engines, ensuring high rankings driving more patient leads. We focus on healthcare GEO aswell.",
     image: "/cross-platform.jpg",
   },
   {
     icon: Users,
-    title: "Growth Marketing for B2B SaaS",
+    title: "Healthcare Growth Marketing",
     description:
-      "Data-driven strategies to amplify your B2B SaaS Webflow website’s performance, conversions, advertising and ROI",
+      "Data-driven strategies to amplify your Healthcare Webflow website’s performance, conversions, advertising and ROI",
     image: "/multiplayer.jpg",
   },
   {
@@ -133,13 +134,12 @@ export default function Services() {
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Our Services for
-                <span className="text-primary">B2B SaaS</span> Growth.
+                <span className="text-primary">Healthcare</span> website
+                Tailored to Your Needs
               </h2>
               <h5 className=" h5 lg:h5 xl:h4 m-0 text-center max-w-550px mx-auto">
-                We specialize in building high-performing websites for B2B SaaS
-                companies, combining deep industry knowledge with design that
-                converts.
+                We provide transformative healthcare solutions, from intuitive
+                website design to integrated patient portals and SEO mastery.
               </h5>
               <div className="panel">
                 <div

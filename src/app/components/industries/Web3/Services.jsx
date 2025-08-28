@@ -75,44 +75,44 @@ import Link from "next/link";
 const solutionsData = [
   {
     icon: Gamepad2,
-    title: "Web Design Tailored for B2B SaaS",
+    title: "UI/UX Design for Blockchain",
     description:
-      "Our designs are crafted to resonate with your target audience, delivering a seamless user experience that enhances customer engagement..",
+      "We create intuitive, jaw-dropping interfaces that make your blockchain project a breeze to use. Whether it’s a dApp or a crypto platform, we design for real people, not just tech wizards.",
     // image: "/game-worlds.jpg",
   },
   {
     icon: Slack,
-    title: "B2B SaaS Webflow Development",
+    title: "Web3 Webflow Development",
     description:
-      "We build scalable, secure, and high-performing Webflow websites for enterprise clients, ensuring your B2B SaaS platform can handle rapid growth.",
+      "Need a site that’s fast, sleek, and Web3-ready? We build high-performance websites with Webflow, perfectly tuned for blockchain tech and beyond.",
     image: "/graphics.jpg",
   },
   {
     icon: TrendingUp,
-    title: "B2B SaaS-Specific SEO Strategy",
+    title: "Blockchain SEO Optimization",
     description:
-      "Boost your website's visibility with our targeted Webflow B2B SaaS SEO strategies. We focus on optimizing your site to rank high and grow faster.",
+      "Get noticed in the crowded Web3 space. Our SEO magic boosts your crypto website or NFT platform’s ranking, drawing in the right crowd—organically.",
     image: "/cross-platform.jpg",
   },
   {
     icon: Users,
-    title: "Growth Marketing for B2B SaaS",
+    title: "Web3 Conversion Rate Engineering",
     description:
-      "Data-driven strategies to amplify your B2B SaaS Webflow website’s performance, conversions, advertising and ROI",
+      "Increase wallet connections by 63% using psychological triggers, staking calculators, and dynamic APY displays.",
     image: "/multiplayer.jpg",
   },
   {
     icon: Radar,
-    title: "Migrate to Webflow",
+    title: "Cross-Chain Webflow Migration",
     description:
-      "Smooth transitions guaranteed from any platform. Migrate your B2B SaaS WordPress site to Webflow. Not just WordPress -- Wix, Squarespace, figma.",
+      "Seamlessly transition existing WordPress/Drupal sites to Webflow with Layer 2 compatibility and <1s load times.",
     image: "/ai-mechanics.jpg",
   },
   {
     icon: Rocket,
-    title: "B2B SaaS Webflow Maintenance & Support",
+    title: "Ongoing Web3 Maintenance",
     description:
-      "24/7 Instant webflow maintenance and support for B2B SaaS businesses. You take of your growth and we take care of your site.",
+      "24/7 monitoring, security updates, and content optimization tailored for evolving blockchain networks and Web3 standards.",
     image: "/post-launch.jpg",
   },
 ];
@@ -133,14 +133,14 @@ export default function Services() {
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Our Services for
-                <span className="text-primary">B2B SaaS</span> Growth.
+                <span className="text-primary"> Web3 </span> Webflow Services
+                Tailored for Blockchain Innovation.
               </h2>
-              <h5 className=" h5 lg:h5 xl:h4 m-0 text-center max-w-550px mx-auto">
-                We specialize in building high-performing websites for B2B SaaS
-                companies, combining deep industry knowledge with design that
-                converts.
-              </h5>
+              <p className="fs-6 xl:fs-5 text-black dark:text-white text-opacity-70 max-w-550px text-center mx-auto">
+                We combine cutting-edge design with powerful Webflow
+                capabilities to create Web3 experiences that simplify
+                complexity, build trust, and drive adoption.
+              </p>
               <div className="panel">
                 <div
                   className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-3"
