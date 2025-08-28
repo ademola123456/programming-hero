@@ -1,9 +1,9 @@
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
-import Hero from "@/components/industries/Financial-service/Hero";
-import Services from "@/components/industries/Financial-service/Services";
-import AnimatedHero from "@/components/industries/Financial-service/AnimatedHero";
+import Hero from "@/components/industries/Financial-Service/Hero";
+import Services from "@/components/industries/Financial-Service/Services";
+import AnimatedHero from "@/components/industries/Financial-Service/AnimatedHero";
 import CaseStudyCard from "@/components/industries/Financial-Service/CaseStudy";
 import Solutions from "@/components/industries/Financial-Service/Solution";
 export const metadata = {

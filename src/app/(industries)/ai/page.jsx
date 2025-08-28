@@ -1,10 +1,10 @@
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
-import Hero from "@/components/industries/ai/Hero";
-import Services from "@/components/industries/ai/Services";
-import AnimatedHero from "@/components/industries/ai/AnimatedHero";
-import CaseStudy from "@/components/industries/ai/CaseStudy";
+import Hero from "@/components/industries/AI/Hero";
+import Services from "@/components/industries/AI/Services";
+import AnimatedHero from "@/components/industries/AI/AnimatedHero";
+import CaseStudy from "@/components/industries/AI/CaseStudy";
 import Solutions from "@/components/industries/AI/Solution";
 export const metadata = {
   title: "Ai || Brainwave ",
