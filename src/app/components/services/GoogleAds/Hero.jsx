@@ -185,7 +185,7 @@ export default function Hero() {
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column pb-5">
                 <Link
-                  href={`/page-pricing`}
+                  href={`/page-contact`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
                   Book A Strategy Session

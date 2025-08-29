@@ -1,6 +1,9 @@
+"use client";
 import { features6 } from "@/data/features";
+import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import { openContactModal } from "@/utlis/toggleContactModal";
 import Brands from "@/components/common/Brands";
 export default function Hero() {
   return (
@@ -59,9 +62,12 @@ export default function Hero() {
               </p>
             </div>
             <div className=" vstack sm:hstack justify-center gap-3 flex-sm-column items-center lg:gap-4 mb-6 sm:mb-8 lg:mb-9 max-w-650px mx-auto ">
-              <button className="btn btn-md lg:btn-lg btn-primary shadow-md">
+              <Link
+                href={`/page-contact`}
+                className="btn btn-md lg:btn-lg btn-primary text-white"
+              >
                 Book an intro Call
-              </button>
+              </Link>
               <button className="btn  btn-md lg:btn-lg bg-white text-gray-600 rounded-lg  shadow-md hover:bg-opacity-40 dark:bg-gray-700 dark:bg-opacity-50 dark:text-white">
                 See our Work
               </button>

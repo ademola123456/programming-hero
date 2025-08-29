@@ -6,6 +6,7 @@ import Services from "@/components/industries/Hospitality/Services";
 import AnimatedHero from "@/components/industries/Hospitality/AnimatedHero";
 import CaseStudyCard from "@/components/industries/Hospitality/CaseStudy";
 import Solutions from "@/components/industries/Hospitality/Solution";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
   title: "Hospitality || Brainwave ",
   description:

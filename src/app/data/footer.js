@@ -109,9 +109,9 @@ export const MainFooterLinks = [
   {
     header: "Other Pages",
     links: [
-      { href: "/about", label: "About" },
+      { href: "/page-about", label: "About" },
       { href: "/portfolio", label: "Portfolio" },
-      { href: "/contact", label: "Contact" },
+      { href: "/page-contact", label: "Contact" },
       { href: "/case-study", label: "Resource" },
     ],
   },
