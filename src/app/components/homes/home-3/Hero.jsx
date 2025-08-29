@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { openContactModal } from "@/utlis/toggleContactModal";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 import { Thumbs, EffectFade, Autoplay, Pagination } from "swiper/modules";
 
 const images = [
@@ -166,7 +167,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="section-outer panel pb-10 pt-9 lg:py-10">
+      <div className="section-outer panel pt-9 lg:py-3">
         <div className="container max-w-xl">
           <div className="section-inner panel">
             <div
@@ -199,70 +200,62 @@ export default function Hero() {
               </div>
               <p className=""></p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="section-outer panel pb-3  lg:py-3">
+        <div className="container max-w-xl">
+          <div className="section-inner panel">
+            <div className="relative w-full max-w-7xl mx-auto">
+              <div className="absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-white via-white/80 to-transparent z-20 pointer-events-none" />
+              <div className="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-white via-white/80 to-transparent z-20 pointer-events-none" />
 
-            <div className=" d-flex panel py-5 ">
               <Swiper
                 modules={[Autoplay]}
-                slidesPerView={3} // show multiple slides
                 loop={true} // infinite loop
                 speed={1000} // lower = slower scroll
                 centeredSlides={true}
                 centeredSlidesBounds={true}
+                spaceBetween={30}
+                slidesPerView={"auto"}
+                // centeredSlides={false}
+                grabCursor={true}
                 autoplay={{
                   delay: 2500, // no delay between slides
                   disableOnInteraction: false,
                 }}
-                breakpoints={{
-                  640: {
-                    slidesPerView: 1,
-                    centeredSlides: false,
-                    centeredSlidesBounds: false,
-                  },
-                  768: {
-                    slidesPerView: 2,
-                    spaceBetween: 80,
-                  },
-                }}
                 freeMode={true} // smooth continuous scroll
                 // freeModeMomentum={false}
-                className="mySwiper "
+                className="mySwiper py-5"
               >
                 {[...images, ...images].map((img, i) => (
                   <SwiperSlide
-                    className=" swiper-slide"
+                    className="!w-[360px] flex items-center justify-center"
                     style={{
                       display: "inline-block px-4",
-                      width: "320px",
+                      width: "360px",
                     }}
                   >
                     <div
                       key={i}
-                      className="relative w-[320px] w-[260px"
+                      className="bg-white rounded-2xl shadow-md overflow-hidden"
                     >
                       <Image
                         src={img.src}
                         alt={img.alt}
-                        width={320}
-                        height={260}
-                        className="h-[240px] w-[320px] rounded-xl object-cover rounded-3 "
+                        width={360}
+                        height={300}
+                        className="w-full h-auto object-contain"
                       />
                     </div>
                   </SwiperSlide>
                 ))}
               </Swiper>
 
-              {/* <div className="panel text-center overflow-hidden rounded-3 border border-5 border-dark dark:border-white dark:border-opacity-20">
-                <Image
-                  alt="Main hero image"
-                  src="/assets/images/template/dashboard.jpg"
-                  width="1440"
-                  height="1024"
-                />
-              </div> */}
               <div
                 className="position-absolute bottom-1 ltr:end-0 rtl:start-0 ltr:me-n8 rtl:ms-n8 mb-n8"
                 style={{
-                  zIndex: "1",
+                  zIndex: "21",
                   marginRight: "-5rem !important",
                   marginBottom: "-8rem !important",
                 }}

@@ -15,30 +15,30 @@ import { motion } from "framer-motion";
 const solutionsData = [
   {
     icon: Laptop,
-    title: "UI/UX Design",
+    title: "Tailored Solutions for Every Healthcare Provider",
     description:
-      "Our expert Webflow design team create stunning, user-centered websites that drive conversions through strategic UI/UX design, ensuring your brand stands out.",
+      "We don’t believe in one-size-fits-all. Whether you’re a hospital, dental clinic, or telehealth provider, we create customized healthcare websites designed to meet your unique business goals and patient needs.",
     tags: ["Web design", "UX Research", "Figma Design"],
   },
   {
     icon: Mails,
-    title: "Webflow Development",
+    title: "HIPAA-Compliant & Secure Websites",
     description:
-      "Transform your vision into reality with our expert Webflow development services. Our certified developers create responsive, scalable websites that perform.",
+      "We prioritize security, building HIPAA-compliant healthcare websites that ensure patient data is safe and secure. With strict adherence to regulations, your patients can trust their personal information is handled with care.",
     tags: ["Webflow Design", "Webflow Experts"],
   },
   {
     icon: TrendingUp,
-    title: "Webflow SEO",
+    title: "Advanced Healthcare SEO & GEO",
     description:
-      "Boost your online visibility with our comprehensive Webflow SEO services, ensuring your website ranks and performs. Rank higher and grow faster with our expert SEO services.",
+      "Website speed is critical for both SEO and user experience. We build healthcare websites with optimized performance, reducing load times and helping your site rank higher on Google for healthcare-related searches.",
     tags: ["Webflow SEO", "Link Building", "Global SEO"],
   },
   {
     icon: FlaskConical,
-    title: "Growth Marketing",
+    title: "Long-Term Partnership & Maintenance",
     description:
-      "Turn your Webflow website into a lead generating engine. We combine UX with data to boost conversions, maximize ROI, & grow your brand.",
+      "At Braiwave, we believe in building long-term relationships. Beyond launching your healthcare website, we offer continuous support, performance monitoring, and SEO maintenance to keep your site at the top of its game.",
     tags: [
       "A/B & Multivariate Testing",
       "Funnels",
@@ -50,9 +50,9 @@ const solutionsData = [
   },
   {
     icon: ArrowRightLeft,
-    title: "Webflow Migration",
+    title: "Fast Turnaround & Ongoing Support",
     description:
-      "Smooth transitions guaranteed. Migrations from WordPress to Webflow, Squarespace to Webflow, and Wix to Webflow are our specialties.",
+      "Time is crucial in healthcare, which is why we deliver high-quality websites quickly and efficiently. After launch, we provide ongoing support and updates, ensuring your website continues to perform at its best.",
     tags: [
       "Migrate to Webflow",
       "Wix to Webflow",
@@ -62,9 +62,9 @@ const solutionsData = [
   },
   {
     icon: Slack,
-    title: "Webflow Maintenance and Support",
+    title: "Future-Ready Webflow Healthcare website",
     description:
-      "We provide post launch updates, performance checks, and troubleshooting to keep your Webflow site secure and optimized.",
+      "We build webflow websites adaptable to 2025 innovations like AI-powered Healthcare websites and latest webflow web design treands. We dont follow the trend, we create trends in tech industry.",
     tags: [
       "Webflow Maintenance",
       "Webflow Support",
@@ -92,15 +92,21 @@ export default function Solutions() {
                 className="text-center"
               >
                 <div className="text-white text-muted-foreground inline-block  text-sm font-semibold text-center">
-                  ★ Solution
+                  ★ Why Us
                 </div>
                 <h2
                   className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                   data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
                 >
-                  Tailored Digital Marketing
-                  <span className="text-primary"> Solutions.</span>
+                  Why Choose Brainwave for your
+                  <span className="text-primary"> Healthcare</span> Brand?
                 </h2>
+                <p className="fs-6 lg:fs-5 dark:text-gray-300 pt-5 max-w-550px mx-auto">
+                  We provide transformative healthcare solutions, from intuitive
+                  website design to integrated patient portals and SEO mastery.
+                  Our goal is to turn your digital presence into a powerful tool
+                  for patient empowerment and connection.
+                </p>
               </motion.div>
               <div className="panel">
                 <div

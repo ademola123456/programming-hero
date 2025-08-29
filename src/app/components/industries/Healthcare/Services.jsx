@@ -106,14 +106,14 @@ const solutionsData = [
     icon: Radar,
     title: "Migrate to Webflow",
     description:
-      "Smooth transitions guaranteed from any platform. Migrate your B2B SaaS WordPress site to Webflow. Not just WordPress -- Wix, Squarespace, figma.",
+      "Smooth transitions guaranteed. Migrations from WordPress to Webflow, Squarespace to Webflow, and Wix to Webflow are our specialties.",
     image: "/ai-mechanics.jpg",
   },
   {
     icon: Rocket,
-    title: "B2B SaaS Webflow Maintenance & Support",
+    title: "Ongoing Webflow Maintenance",
     description:
-      "24/7 Instant webflow maintenance and support for B2B SaaS businesses. You take of your growth and we take care of your site.",
+      "24/7 Instant webflow maintenance and support for healthcare and longevity businesses. You take of your growth and we take care of your site.",
     image: "/post-launch.jpg",
   },
 ];
@@ -137,7 +137,7 @@ export default function Services() {
                 <span className="text-primary">Healthcare</span> website
                 Tailored to Your Needs
               </h2>
-              <h5 className=" h5 lg:h5 xl:h4 m-0 text-center max-w-550px mx-auto">
+              <h5 className=" h5 lg:h5 xl:h4 m-0 text-center text-gray-200 max-w-550px mx-auto">
                 We provide transformative healthcare solutions, from intuitive
                 website design to integrated patient portals and SEO mastery.
               </h5>

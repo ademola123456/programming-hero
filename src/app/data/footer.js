@@ -112,7 +112,7 @@ export const MainFooterLinks = [
       { href: "/about", label: "About" },
       { href: "/portfolio", label: "Portfolio" },
       { href: "/contact", label: "Contact" },
-      { href: "/resource", label: "Resource" },
+      { href: "/case-study", label: "Resource" },
     ],
   },
   // {

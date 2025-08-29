@@ -6,10 +6,7 @@ export default function AnimatedHero() {
   const texts = [
     "We Design Website That People Cant ignore",
     "And Leave A lasting Experience. Did you Feel it? ",
-    "Mobile Games",
-    "VR Experiences",
-    "Multiplayer Worlds",
-    "Game Engines",
+    "With Strategic design and Webfow development",
   ];
   //
   const words = texts[textIndex].split(" ");

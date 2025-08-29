@@ -6,6 +6,7 @@ import Services from "@/components/industries/E-commerce/Services";
 import AnimatedHero from "@/components/industries/E-commerce/AnimatedHero";
 import Success from "@/components/industries/E-commerce/Success";
 import Solutions from "@/components/industries/E-commerce/Solution";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
   title: "B2B || Brainwave ",
   description:
@@ -25,6 +26,7 @@ export default function page() {
           <Services />
           <Success />
           <Solutions />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

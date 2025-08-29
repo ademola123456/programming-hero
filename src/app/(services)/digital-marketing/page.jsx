@@ -2,10 +2,11 @@ import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/services/DigitalMaketing/Hero";
-
+import AnimatedHero from "@/components/services/DigitalMaketing/AnimatedHero";
 import Features from "@/components/services/DigitalMaketing/Features";
 import Integration from "@/components/services/DigitalMaketing/Integration";
 import Success from "@/components/services/DigitalMaketing/Success";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
   title: "Digital Marketing || Brainwave ",
   description:
@@ -21,9 +22,11 @@ export default function page() {
           className="wrap"
         >
           <Hero />
+          <AnimatedHero />
           <Features />
           <Integration />
           <Success />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

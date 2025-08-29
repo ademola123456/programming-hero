@@ -26,6 +26,10 @@
 .uc-navbar-toggle-animate[aria-expanded="true"] svg .line-4 {
   transform: translateY(-6px) scaleX(0);
 }
+
+:where(.uc-dark) .text-\[var\(--color-foreground-muted\)\] {
+  color: #a6a8aa;
+}
 .headerFixed {
   position: fixed !important;
   top: 0;
@@ -337,9 +341,7 @@ html[dir="rtl"] .nav-y .uc-parent::after {
   color: #fff;
   background: transparent !important;
   width: fit-content;
-  padding: 3px 8px;
-
-  margin: 10px;
+  padding: 3px 5px;
 }
 .categories::after {
   margin: auto;

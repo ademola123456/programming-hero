@@ -144,13 +144,13 @@ export default function Hero() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                Scalable B2B SaaS Webflow Design and Development
+                Gaming and Esports Website Webflow Design & Development
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                What if your website didn’t just look great but actually drove
-                leads and conversions? At BrainWave, we build powerful sites
-                that fuel B2B SaaS growth. Ready to turn visitors into
-                customers?
+                Transform your gaming platform with cutting-edge Webflow
+                solutions that blend immersive 3D interfaces with lightning-fast
+                performance. Trusted by industry leaders to deliver experiences
+                gamers can't resist.
               </p>
             </div>
             <div className=" vstack sm:hstack justify-center gap-3 flex-sm-column items-center lg:gap-4 mb-6 sm:mb-8 lg:mb-9 max-w-650px mx-auto ">

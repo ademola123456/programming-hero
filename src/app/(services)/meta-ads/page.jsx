@@ -1,10 +1,11 @@
-
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/services/MetaAds/Hero";
+import AnimatedHero from "@/components/services/MetaAds/AnimatedHero";
 import Features from "@/components/services/MetaAds/Features";
 import Success from "@/components/services/MetaAds/Success";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
   title: "Meta Ads || Brainwave ",
   description:
@@ -20,8 +21,10 @@ export default function page() {
           className="wrap"
         >
           <Hero />
+          <AnimatedHero />
           <Features />
           <Success />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

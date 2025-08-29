@@ -3,8 +3,7 @@ import { reviews, testimonialsData } from "@/data/testimonials";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-// import { testimonials } from "@/data/testimonials";
-// import { Swiper, SwiperSlide } from "swiper/react";
+
 // import { Thumbs, EffectFade, Autoplay, Pagination } from "swiper/modules";
 import { useState } from "react";
 
@@ -118,7 +117,7 @@ export default function Testimonials() {
       id="clients_feedback"
       className="clients-feedback section panel  scrollSpysection"
     >
-      <div className="section-outer panel py-6 lg:py-8 xl:py-10 bg-secondary text-black rounded-2 lg:rounded-3 m-2">
+      <div className="section-outer panel py-6 lg:py-8 xl:py-10 bg-secondary dark:bg-primary text-black rounded-2 lg:rounded-3 m-2">
         <div className="container xl:max-w-xl">
           <div
             className="section-inner panel vstack items-center gap-4 md:gap-6 lg:gap-8 max-w-100"

@@ -1,9 +1,10 @@
 import Header2 from "@/components/headers/Header2";
 import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/services/Gaming/Hero";
-
+import AnimatedHero from "@/components/services/Gaming/AnimatedHero";
 import Features from "@/components/services/Gaming/Features";
 import Success from "@/components/services/Gaming/success";
+import ContactPage from "@/components/common/ContactPage";
 
 export const metadata = {
   title: "Game Development || Brainwave ",
@@ -21,9 +22,10 @@ export default function GameDevelopment() {
           className="wrap"
         >
           <Hero />
-
+          <AnimatedHero />
           <Features />
           <Success />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

@@ -5,7 +5,8 @@ import Hero from "@/components/services/2dAnimation/Hero";
 import LogoGrid from "@/components/services/2dAnimation/LogoGrid";
 import Features from "@/components/services/2dAnimation/Feature";
 import Integration from "@/components/services/2dAnimation/Integration";
-
+import ContactPage from "@/components/common/ContactPage";
+import AnimatedHero from "@/components/services/2dAnimation/AnimatedHero";
 export const metadata = {
   title: "2D Animation || Brainwave ",
   description:
@@ -21,9 +22,11 @@ export default function page() {
           className="wrap"
         >
           <Hero />
+          <AnimatedHero />
           <LogoGrid />
           <Features />
           <Integration />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

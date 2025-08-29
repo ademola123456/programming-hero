@@ -2,9 +2,11 @@ import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/services/Web-development/Hero";
+import AnimatedHero from "@/components/services/web-development/AnimatedHero";
 import Features from "@/components/services/Web-development/Features";
 import Success from "@/components/services/Web-development/Success";
 import Integration from "@/components/services/Web-development/integration";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
   title: "Web Development || Brainwave ",
   description:
@@ -20,9 +22,11 @@ export default function page() {
           className="wrap"
         >
           <Hero />
+          <AnimatedHero />
           <Features />
           <Integration />
           <Success />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

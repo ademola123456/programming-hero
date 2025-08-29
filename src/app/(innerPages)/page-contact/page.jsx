@@ -17,11 +17,11 @@ export default function ContactPage() {
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
         <Header2 />
-        <div id="wrapper" className="wrap">
+        <div
+          id="wrapper"
+          className="wrap"
+        >
           <Contact1 />
-
-          <ContactLinks />
-          <Faq />
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"
@@ -44,6 +44,7 @@ export default function ContactPage() {
             </div>
           </div>
           <Blogs />
+          {/* <Blogs /> */}
         </div>
         <Footer2 />
       </div>

@@ -28,8 +28,8 @@ const Contact = () => {
 
   return (
     <div className=" clients-feedback section panel  scrollSpysection">
-      <div className="isolate bg-[var(--color-background)] px-6 py-16 sm:py-24 lg:px-8">
-        <div className="mx-auto max-w-7xl rounded-3xl bg-[var(--color-card-background)] p-6 sm:p-10 lg:p-16">
+      <div className="isolate bg-white dark:bg-black px-6 py-16 sm:py-24 lg:px-8">
+        <div className="mx-auto max-w-7xl rounded-3xl bg-secondary dark:bg-gray-900  p-6 sm:p-10 lg:p-16">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-[var(--color-foreground)] sm:text-4xl lg:text-5xl">
               Let&apos;s create something out of this world together.

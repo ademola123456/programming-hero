@@ -6,21 +6,21 @@ import Brands from "@/components/common/Brands2";
 import About2 from "@/components/innerpages/About2";
 import AboutValues from "@/components/innerpages/AboutValues";
 import Feedback from "@/components/homes/home-2/Feedback";
-import Timeline from "@/components/homes/home-1/Timeline";
-import Team from "@/components/homes/home-1/Team";
-import Cta from "@/components/innerpages/Cta";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
-  title:
-    "About || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "About || Brainwave ",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
 };
 export default function AboutPage() {
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
         <Header2 />
-        <div id="wrapper" className="wrap">
+        <div
+          id="wrapper"
+          className="wrap"
+        >
           <About />
           <div
             id="clients_brands"
@@ -41,12 +41,10 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-          <About2 />
-          <AboutValues />
-          <Feedback />
-          <Timeline />
-          <Team />
-          <Cta />
+          {/* <About2 /> */}
+
+          <ContactPage />
+          {/* <Timeline /> */}
         </div>
         <Footer2 />
       </div>

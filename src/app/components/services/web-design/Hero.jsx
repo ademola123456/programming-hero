@@ -147,7 +147,7 @@ export default function Hero() {
                 Stunning UI/UX Design That Drives Results
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                At Webyansh, we create seamless and captivating UI/UX designs
+                At Brainwave, we create seamless and captivating UI/UX designs
                 that enhance user interaction and elevate your brand. As a
                 top-rated Webflow design agency, our custom, responsive websites
                 are built to engage your audience and boost conversions across

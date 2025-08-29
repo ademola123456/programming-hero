@@ -6,6 +6,7 @@ import Services from "@/components/industries/Web3/Services";
 import AnimatedHero from "@/components/industries/Web3/AnimatedHero";
 import CaseStudyCard from "@/components/industries/Web3/CaseStudy";
 import Solutions from "@/components/industries/Web3/Solution";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
   title: "Web3 || Brainwave ",
   description:
@@ -25,6 +26,7 @@ export default function page() {
           <AnimatedHero />
           <CaseStudyCard />
           <Solutions />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

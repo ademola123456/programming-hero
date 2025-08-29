@@ -1,11 +1,12 @@
-
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/services/Seo/Hero";
+import AnimatedHero from "@/components/services/Seo/AnimatedHero";
 import Features from "@/components/services/Seo/Features";
 import Success from "@/components/services/Seo/Success";
 import Integration from "@/components/services/Seo/Integration";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
   title: "SEO || Brainwave ",
   description:
@@ -21,9 +22,11 @@ export default function page() {
           className="wrap"
         >
           <Hero />
+          <AnimatedHero />
           <Features />
           <Success />
           <Integration />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

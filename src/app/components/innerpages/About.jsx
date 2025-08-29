@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div id="hero_header" className="hero-header section panel overflow-hidden">
+    <div
+      id="hero_header"
+      className="hero-header section panel overflow-hidden"
+    >
       <div
         className="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block"
         data-anime="targets: >*; scale: [0, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});"
@@ -46,12 +49,9 @@ export default function About() {
                 About Lexend.
               </h1>
               <p className="fs-6 md:fs-5 text-dark dark:text-white text-opacity-70">
-                In 2014, Steven Smith have gotten so much of our time back that
-                we're now able to put towards things that are actually helping
-                our company as opposed to just throwing content out there. and
-                the idea of Lexend was born. Today, Lexend empowers teams to
-                easily communicate with customers through personalized documents
-                that can be created in minutes, build meaningful relationships.
+                Hi, I’m Unknown - Founder at Brainwave. Schedule a call with me
+                to discuss in detail about your project and how we can help your
+                business.
               </p>
             </div>
             <div className="panel row child-cols-12 col-match g-1 sm:g-2">

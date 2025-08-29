@@ -64,7 +64,7 @@ export default function Blog() {
                             data-caption={post.imageAlt}
                           ></Link>
                         </figure>
-                        <header className="panel vstack items-center gap-1 lg:gap-2 px-2 dark:bg-gray-600">
+                        <header className="panel vstack items-center   gap-1 lg:gap-2 px-2 py-4 border-gray-100 dark:border-gray-900 dark:bg-gray-900">
                           <h3 className="h5 xl:h4 m-0 text-center m-0">
                             <Link
                               className="text-none"

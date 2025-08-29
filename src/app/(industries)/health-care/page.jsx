@@ -6,6 +6,7 @@ import Services from "@/components/industries/Healthcare/Services";
 import AnimatedHero from "@/components/industries/Healthcare/AnimatedHero";
 import CaseStudyCard from "@/components/industries/Healthcare/CaseStudy";
 import Solutions from "@/components/industries/Healthcare/Solution";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
   title: "Health care || Brainwave ",
   description:
@@ -25,6 +26,7 @@ export default function page() {
           <Services />
           <CaseStudyCard />
           <Solutions />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

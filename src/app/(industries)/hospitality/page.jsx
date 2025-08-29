@@ -25,6 +25,7 @@ export default function page() {
           <Services />
           <CaseStudyCard />
           <Solutions />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

@@ -2,8 +2,10 @@ import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/services/GoogleAds/Hero";
+import AnimatedHero from "@/components/services/GoogleAds/AnimatedHero";
 import Features from "@/components/services/GoogleAds/Features";
 import Success from "@/components/services/GoogleAds/Success";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
   title: "Google Ads || Brainwave ",
   description:
@@ -21,6 +23,7 @@ export default function page() {
           <Hero />
           <Features />
           <Success />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

@@ -15,30 +15,30 @@ import { motion } from "framer-motion";
 const solutionsData = [
   {
     icon: Laptop,
-    title: "UI/UX Design",
+    title: "Deep Gaming Industry Knowledge",
     description:
-      "Our expert Webflow design team create stunning, user-centered websites that drive conversions through strategic UI/UX design, ensuring your brand stands out.",
+      "Our team doesn't just build websites—we understand gaming culture, player psychology, and industry-specific conversion triggers that transform casual visitors into loyal community members.",
     tags: ["Web design", "UX Research", "Figma Design"],
   },
   {
     icon: Mails,
-    title: "Webflow Development",
+    title: "2025 Gaming UI/UX Trends Mastery",
     description:
-      "Transform your vision into reality with our expert Webflow development services. Our certified developers create responsive, scalable websites that perform.",
+      "We incorporate advanced motion design, 3D graphics, and futuristic gaming UI aesthetics to create interfaces that feel familiar to gamers. We embrace immersive, sci-fi inspired elements that dominate gaming in 2025",
     tags: ["Webflow Design", "Webflow Experts"],
   },
   {
     icon: TrendingUp,
-    title: "Webflow SEO",
+    title: "Results That Speak for Themselves",
     description:
-      "Boost your online visibility with our comprehensive Webflow SEO services, ensuring your website ranks and performs. Rank higher and grow faster with our expert SEO services.",
+      "Our track record with gaming clients proves we deliver. Check out our portfolio to see how we’ve leveled up brands just like yours.",
     tags: ["Webflow SEO", "Link Building", "Global SEO"],
   },
   {
     icon: FlaskConical,
-    title: "Growth Marketing",
+    title: "Long-Term Partnership & Maintenance",
     description:
-      "Turn your Webflow website into a lead generating engine. We combine UX with data to boost conversions, maximize ROI, & grow your brand.",
+      "At Webyansh, we believe in building long-term relationships. Beyond launching your gaming website, we offer continuous support, performance monitoring, and SEO maintenance to keep your site at the top of its game.",
     tags: [
       "A/B & Multivariate Testing",
       "Funnels",
@@ -50,9 +50,9 @@ const solutionsData = [
   },
   {
     icon: ArrowRightLeft,
-    title: "Webflow Migration",
+    title: "Dedicated Gaming Support Team",
     description:
-      "Smooth transitions guaranteed. Migrations from WordPress to Webflow, Squarespace to Webflow, and Wix to Webflow are our specialties.",
+      "Got a question or glitch? Our team’s here 24/7 to keep your gaming site firing on all cylinders, long after launch day.",
     tags: [
       "Migrate to Webflow",
       "Wix to Webflow",
@@ -62,9 +62,9 @@ const solutionsData = [
   },
   {
     icon: Slack,
-    title: "Webflow Maintenance and Support",
+    title: "All-in-One Webflow Solutions",
     description:
-      "We provide post launch updates, performance checks, and troubleshooting to keep your Webflow site secure and optimized.",
+      "From design to SEO and ongoing support, we’re your one-stop shop for gaming industry Webflow solutions—no need to juggle multiple agencies.",
     tags: [
       "Webflow Maintenance",
       "Webflow Support",
@@ -98,8 +98,8 @@ export default function Solutions() {
                   className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                   data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
                 >
-                  Tailored Digital Marketing
-                  <span className="text-primary"> Solutions.</span>
+                  Why Brainwave is Your
+                  <span className="text-primary"> Gaming</span> Website MVP
                 </h2>
               </motion.div>
               <div className="panel">

@@ -21,15 +21,16 @@ export default function CaseStudyCard() {
                 </span>
               </div>
               <h2 className="h3 lg:h2 xl:h1 m-0 px-2">
-                Success
+                Selected Healthcare Success
                 <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
                   Stories
                 </span>{" "}
                 .
               </h2>
               <p className="fs-6 xl:fs-5 text-black dark:text-white text-opacity-70">
-                Discover how our innovative web design and custom Webflow
-                solutions empower businesses to achieve remarkable results.
+                Explore our portfolio of exceptional web design and custom
+                Webflow websites that drive results for Healthtech and Longevity
+                businesses worldwide.
               </p>
             </div>
             <div className="row child-cols-12  col-match g-2">
@@ -79,7 +80,7 @@ export default function CaseStudyCard() {
                           Fulfillment
                         </span>
                       </div>
-                      <div className="content vstack items-start border-top py-3 gap-2">
+                      <div className="content vstack items-start border-top pt-3 gap-1">
                         <h2 className="h2 m-0">$2.7M</h2>
                         <p className=" text-xs lg:fs-6 dark:text-white">
                           in funding.
@@ -125,7 +126,7 @@ export default function CaseStudyCard() {
                       />
                     </div>
                     <div
-                      className="panel vstack items-start justify-center gap-2 p-3 lg:p-4 xl:p-4 pt-0 lg:pt-0 xl:pt-0"
+                      className="panel vstack items-start justify-center gap-1 p-3 lg:p-4 xl:p-4 pt-0 lg:pt-0 xl:pt-0"
                       data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                     >
                       <div className="content vstack items-start mt-5 gap-2">
@@ -147,13 +148,13 @@ export default function CaseStudyCard() {
                           M&A
                         </span>
                       </div>
-                      <div className="content vstack items-start border-top py-3 gap-2">
+                      <div className="content vstack items-start border-top pt-3 gap-1">
                         <h2 className="h2 m-0">23%</h2>
                         <p className="text-xs lg:fs-6 dark:text-white">
                           increase in CVR.
                         </p>
                       </div>
-                      <div className="tags grid-stackchild-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-3 w-100 py-3">
+                      <div className="tags grid-stackchild-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 w-100 ">
                         <span className="categories mt-2 bg-gray-100 text-gray-600 text-s  transition-colors duration-300 group-hover:bg-indigo-100 group-hover:text-indigo-600">
                           Financial Services
                         </span>
@@ -193,7 +194,7 @@ export default function CaseStudyCard() {
                       />
                     </div>
                     <div
-                      className="panel vstack items-start justify-center gap-2 p-3 lg:p-4 xl:p-6 pt-0 lg:pt-0 xl:pt-0"
+                      className="panel vstack items-start justify-center gap-1 p-3 lg:p-4 xl:p-6 pt-0 lg:pt-0 xl:pt-0"
                       data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                     >
                       <div className="content vstack items-start mt-5 gap-2">
@@ -215,13 +216,13 @@ export default function CaseStudyCard() {
                           B2B Saas
                         </span>
                       </div>
-                      <div className="content vstack items-start border-top py-3 gap-2">
-                        <h2 className="h2 m-0">$2.8M</h2>
+                      <div className="content vstack items-start border-top pt-3 gap-1">
+                        <h2 className="h2 m-0">500+</h2>
                         <p className=" text-xs lg:fs-6 dark:text-white">
-                          in funding.
+                          users enrolled in 9 months
                         </p>
                       </div>
-                      <div className="tags grid-stackchild-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-3 w-100 py-3">
+                      <div className="tags grid-stackchild-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 w-100 ">
                         <span className="categories mt-2 bg-gray-100 text-gray-600 text-s  transition-colors duration-300 group-hover:bg-indigo-100 group-hover:text-indigo-600">
                           Bubble to Webflow Migration
                         </span>

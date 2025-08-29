@@ -6,6 +6,7 @@ import Services from "@/components/industries/AI/Services";
 import AnimatedHero from "@/components/industries/AI/AnimatedHero";
 import CaseStudy from "@/components/industries/AI/CaseStudy";
 import Solutions from "@/components/industries/AI/Solution";
+import ContactPage from "@/components/common/ContactPage";
 export const metadata = {
   title: "Ai || Brainwave ",
   description:
@@ -25,6 +26,7 @@ export default function page() {
           <Services />
           <CaseStudy />
           <Solutions />
+          <ContactPage />
         </div>
         <Footer2 />
       </div>

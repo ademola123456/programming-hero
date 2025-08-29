@@ -16,7 +16,7 @@ export const menuItems = [
         label: "Webflow SEO",
       },
       {
-        href: "/web-mentainace-support",
+        href: "/maintainance-support",
         label: "Webflow Maintenance and Support",
       },
       {
@@ -95,7 +95,7 @@ export const menuItems = [
   },
   {
     id: 4,
-    href: "/resources",
+    href: "/case-study",
     label: "Resources",
   },
   {

@@ -75,44 +75,44 @@ import Link from "next/link";
 const solutionsData = [
   {
     icon: Gamepad2,
-    title: "Web Design Tailored for B2B SaaS",
+    title: "Gaming Website UX/UI Design",
     description:
-      "Our designs are crafted to resonate with your target audience, delivering a seamless user experience that enhances customer engagement..",
+      "We design visually epic interfaces that hook gamers from the first click. Our UX/UI expertise ensures your site delivers an unforgettable experience that keeps players coming back.",
     // image: "/game-worlds.jpg",
   },
   {
     icon: Slack,
-    title: "B2B SaaS Webflow Development",
+    title: "Gaming Website Webflow Development",
     description:
-      "We build scalable, secure, and high-performing Webflow websites for enterprise clients, ensuring your B2B SaaS platform can handle rapid growth.",
+      "Our team builds fast, responsive gaming sites on Webflow, optimized for every device. Say goodbye to lag and hello to a platform that scales with your growing community.",
     image: "/graphics.jpg",
   },
   {
     icon: TrendingUp,
-    title: "B2B SaaS-Specific SEO Strategy",
+    title: "Webflow SEO for Gaming Platforms",
     description:
-      "Boost your website's visibility with our targeted Webflow B2B SaaS SEO strategies. We focus on optimizing your site to rank high and grow faster.",
+      "Get your gaming site noticed with our SEO strategies. We use cutting-edge tactics to rank you higher, drawing in more players and boosting your brand’s visibility.",
     image: "/cross-platform.jpg",
   },
   {
     icon: Users,
-    title: "Growth Marketing for B2B SaaS",
+    title: "Gaming Growth Marketing",
     description:
-      "Data-driven strategies to amplify your B2B SaaS Webflow website’s performance, conversions, advertising and ROI",
+      "Data-driven strategies to amplify your gaming Webflow website’s performance, conversions, advertising and ROI",
     image: "/multiplayer.jpg",
   },
   {
     icon: Radar,
-    title: "Migrate to Webflow",
+    title: "Gaming Site Migration to Webflow",
     description:
-      "Smooth transitions guaranteed from any platform. Migrate your B2B SaaS WordPress site to Webflow. Not just WordPress -- Wix, Squarespace, figma.",
+      "Ready to switch? We’ll migrate your gaming site to Webflow seamlessly, keeping your data intact and minimizing downtime so your players stay in the game.",
     image: "/ai-mechanics.jpg",
   },
   {
     icon: Rocket,
-    title: "B2B SaaS Webflow Maintenance & Support",
+    title: "Gaming Platform Integrations",
     description:
-      "24/7 Instant webflow maintenance and support for B2B SaaS businesses. You take of your growth and we take care of your site.",
+      "Supercharge your site with custom integrations—think analytics, payment systems, and more. We tailor Webflow to fit your gaming platform’s unique needs.",
     image: "/post-launch.jpg",
   },
 ];
@@ -133,13 +133,13 @@ export default function Services() {
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Our Services for
-                <span className="text-primary">B2B SaaS</span> Growth.
+                Game-Changing Webflow Services for
+                <span className="text-primary">Gaming </span> Brands
               </h2>
-              <h5 className=" h5 lg:h5 xl:h4 m-0 text-center max-w-550px mx-auto">
-                We specialize in building high-performing websites for B2B SaaS
-                companies, combining deep industry knowledge with design that
-                converts.
+              <h5 className=" h5 lg:h5 xl:h5 m-0 text-center max-w-550px mx-auto">
+                Our specialized gaming services combine futuristic design with
+                technical excellence to create web experiences that engage
+                players and drive measurable business results.
               </h5>
               <div className="panel">
                 <div
