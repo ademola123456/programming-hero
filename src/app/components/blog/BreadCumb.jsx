@@ -33,7 +33,7 @@ export default function BreadCumb({ category }) {
           </li>
           <li>
             <span className="opacity-50">
-              {category ? category : "Blog — Classic"}
+              {category ? category : "Resources"}
             </span>
           </li>
         </ul>

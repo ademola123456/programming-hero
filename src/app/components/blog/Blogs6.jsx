@@ -4,18 +4,28 @@ import Image from "next/image";
 import Link from "next/link";
 import Pagination from "../common/Pagination";
 
-export default function Blogs6() {
+export default function Resources() {
   return (
     <div className="section py-3 sm:py-6 lg:py-9">
+      <div className="container max-w-100 bg-dark">
+        <div
+          className="panel vstack items-center gap-2 xl:gap-3 mb-4 lg:mb-8 max-w-100 mx-auto py-10 text-center "
+          data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
+        >
+          <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-secondary">
+            Insights for your website{" "}
+            <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+              growth
+            </span>
+          </h2>
+          <p className="fs-6 xl:fs-5 max-w-650px text-gray-100 dark:text-white text-opacity-70">
+            Discover our resources for expert tips, tutorials, and insights on
+            Webflow, design, and SEO to boost your web projects.
+          </p>
+        </div>
+      </div>
       <div className="container max-w-xl">
         <div className="panel vstack gap-3 sm:gap-6 lg:gap-9">
-          <header className="page-header vstack justify-center items-center text-center max-w-500px mx-auto">
-            <h1 className="h4 lg:h1">Blog - Grid 3 Cols</h1>
-            <p className="fs-6 lg:fs-5 opacity-60">
-              Olympic mountain bikers, musicians, and award-winning chefs so
-              special and fun.
-            </p>
-          </header>
           <div className="row g-4 xl:g-8">
             <div className="col">
               <div className="panel text-center">
@@ -44,16 +54,16 @@ export default function Blogs6() {
                             data-caption="How can marketing help your business?"
                           ></Link>
                         </figure>
-                        <header className="panel vstack items-center gap-1 lg:gap-2 px-2">
-                          <h3 className="h6 sm:h5 xl:h4 m-0 m-0">
+                        <header className="panel vstack items-center   gap-1 lg:gap-2 px-2 py-4 border-gray-100 dark:border-gray-900 dark:bg-gray-900">
+                          <h3 className="h5 xl:h4 m-0 text-center m-0">
                             <Link
                               className="text-none"
-                              href={`/blog-details/${elm.id}`}
+                              href={`/resource-details/${elm.id}`}
                             >
                               {elm.title}
                             </Link>
                           </h3>
-                          <ul className="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
+                          {/* <ul className="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
                             <li>
                               <div className="hstack gap-narrow ft-tertiary">
                                 <Image
@@ -77,19 +87,11 @@ export default function Blogs6() {
                                 <span>{elm.date}</span>
                               </div>
                             </li>
-                          </ul>
+                          </ul> */}
                         </header>
                       </article>
                     </div>
                   ))}
-                </div>
-                <div className="nav-pagination pt-3 mt-6 lg:mt-9 border-top border-gray-100 dark:border-gray-800">
-                  <ul
-                    className="nav-x uc-pagination hstack gap-1 justify-center ft-secondary"
-                    data-uc-margin=""
-                  >
-                    <Pagination />
-                  </ul>
                 </div>
               </div>
             </div>

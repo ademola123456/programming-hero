@@ -164,7 +164,10 @@ export default function Nav() {
         </div>
       </li>
       <li>
-        <Link href={`/case-study`}>Resources</Link>
+        <Link href={`/case-study`}>Portfolio</Link>
+      </li>
+      <li>
+        <Link href={`/resource`}>Resources</Link>
       </li>
       <li>
         <Link href={`/page-about`}>About</Link>

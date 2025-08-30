@@ -90,12 +90,12 @@ export const menuItems = [
   },
   {
     id: 3,
-    href: "/portfolio",
+    href: "/case-study",
     label: "Portfolio",
   },
   {
     id: 4,
-    href: "/case-study",
+    href: "/resource",
     label: "Resources",
   },
   {

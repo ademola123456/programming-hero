@@ -1,7 +1,7 @@
 import Header2 from "@/components/headers/Header2";
 import Newsletter from "@/components/blog/Newsletter";
 import Footer1 from "@/components/footers/Footer1";
-import BlogDetails1 from "@/components/blog/BlogDetails1";
+import BlogDetails from "@/components/Resources/ResourcesDetails";
 import { allBlogs } from "@/data/blogs";
 export const metadata = {
   title:
@@ -20,8 +20,7 @@ export default function BlogDetailsPage1({ params }) {
           id="wrapper"
           className="wrap"
         >
-          <BlogDetails1 blogItem={blogItem} />
-          <Newsletter />
+          <BlogDetails blogItem={blogItem} />
         </div>
         <Footer1 />
       </div>
