@@ -67,10 +67,14 @@ export default function Hero() {
               >
                 Start Your Game
               </Link>
-
-              <button className="btn  btn-md lg:btn-lg bg-white text-gray-600 rounded-lg  shadow-md hover:bg-opacity-40 dark:bg-gray-700 dark:bg-opacity-50 dark:text-white">
-                See Portfolio
-              </button>
+              <Link
+                  href={`/case-study`}
+                  className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
+                  data-uc-toggle=""
+                >
+                  See Portfolio
+                </Link>
+              
             </div>
             <div
               id="companies_sponsores"

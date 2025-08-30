@@ -188,13 +188,13 @@ export default function Hero() {
                 >
                   Book A Strategy Call
                 </Link>
-                <a
-                  onClick={openContactModal}
+                <Link
+                  href={`/case-study`}
                   className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
                   data-uc-toggle=""
                 >
-                  View Our work
-                </a>
+                 View Our Work
+                </Link>
               </div>
               <p className=""></p>
             </div>

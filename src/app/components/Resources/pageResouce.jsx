@@ -30,7 +30,7 @@ export default function Resources() {
             <div className="col">
               <div className="panel text-center">
                 <div className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match gy-4 xl:gy-6 gx-2 sm:gx-4">
-                  {blogsPosts4.slice(0, 9).map((elm, i) => (
+                  {blogsPosts4.slice(0, 13).map((elm, i) => (
                     <div key={i}>
                       <article className="post type-post panel vstack gap-3 rounded-3 p-2 pb-3 bg-secondary dark:bg-gray-800">
                         <Link

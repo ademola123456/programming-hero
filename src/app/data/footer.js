@@ -62,7 +62,7 @@ export const MainFooterLinks = [
         label: "Webflow SEO",
       },
       {
-        href: "/web-mentainace-support",
+        href: "/maintenance-support",
         label: "Webflow Maintenance and Support",
       },
       {

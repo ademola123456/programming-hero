@@ -156,13 +156,13 @@ export default function Hero() {
               >
                 Schedule a Call
               </Link>
-
-              <button
-                onClick={openContactModal}
-                className="btn  btn-md lg:btn-lg bg-white text-gray-600 rounded-lg  shadow-md hover:bg-opacity-40 dark:bg-gray-700 dark:bg-opacity-50 dark:text-white"
-              >
-                See Our Work
-              </button>
+ <Link
+                  href={`/case-study`}
+                  className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
+                  data-uc-toggle=""
+                >
+                 See Our work
+                </Link>
             </div>
             <div
               id="companies_sponsores"

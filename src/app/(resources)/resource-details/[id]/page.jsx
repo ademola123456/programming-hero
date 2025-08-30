@@ -5,9 +5,9 @@ import BlogDetails from "@/components/Resources/ResourcesDetails";
 import { allBlogs } from "@/data/blogs";
 export const metadata = {
   title:
-    "Blog Details || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Resources Details || Brainwave ",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Brainwave - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function BlogDetailsPage1({ params }) {
   const id = params.id;

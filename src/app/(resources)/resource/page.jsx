@@ -6,9 +6,9 @@ import Resources from "@/components/Resources/pageResouce";
 import Contact1 from "@/components/innerpages/Contact1";
 export const metadata = {
   title:
-    "Blog 3 Cols || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Resources || Brainwave",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Brainwave - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function Blog3ColsPage() {
   return (

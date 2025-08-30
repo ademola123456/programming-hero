@@ -1,83 +1,113 @@
 export const posts = [
   {
     id: 1,
-    image: "/assets/images/blog/post-4.jpg",
-    alt: "UX review presentations",
+    imageSrc: "/assets/images/blog/post-4.jpg",
+    imageAlt: "UX review presentations",
     title: "UX review presentations",
     excerpt:
       "How do you create compelling presentations that wow your colleagues and impress your managers?",
   },
   {
     id: 2,
-    image: "/assets/images/blog/post-5.jpg",
-    alt: "Migrating to Linear 101",
+    imageSrc: "/assets/images/blog/post-5.jpg",
+    imageAlt: "Migrating to Linear 101",
     title: "Migrating to Linear 101",
     excerpt:
       "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.",
   },
   {
     id: 3,
-    image: "/assets/images/blog/post-6.jpg",
-    alt: "Building your API stack",
+    imageSrc: "/assets/images/blog/post-6.jpg",
+    imageAlt: "Building your API stack",
     title: "Building your API stack",
     excerpt:
       "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
   },
   {
     id: 4,
-    image: "/assets/images/blog/img-01.jpg",
-    alt: "UX review presentations",
+    imageSrc: "/assets/images/blog/img-01.jpg",
+    imageAlt: "UX review presentations",
     title: "UX review presentations",
     excerpt:
       "Join the thousands of satisfied users and take your business to the next level today and the power.",
   },
   {
     id: 5,
-    image: "/assets/images/blog/img-02.jpg",
-    alt: "Migrating to Linear 101",
+    imageSrc: "/assets/images/blog/img-02.jpg",
+    imageAlt: "Migrating to Linear 101",
     title: "Migrating to Linear 101",
     excerpt:
       "Help you keep track of leads, contacts, and deals, making it easier to nurture and convert.",
   },
   {
     id: 6,
-    image: "/assets/images/blog/post-4.jpg",
-    alt: "UX review presentations",
+    imageSrc: "/assets/images/blog/post-4.jpg",
+    imageAlt: "UX review presentations",
     title: "UX review presentations",
     excerpt:
       "How do you create compelling presentations that wow your colleagues and impress your managers?",
   },
   {
     id: 7,
-    image: "/assets/images/blog/post-5.jpg",
-    alt: "Migrating to Linear 101",
+    imageSrc: "/assets/images/blog/post-5.jpg",
+    imageAlt: "Migrating to Linear 101",
     title: "Migrating to Linear 101",
     excerpt:
       "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.",
   },
   {
     id: 8,
-    image: "/assets/images/blog/post-6.jpg",
-    alt: "Building your API stack",
+    imageSrc: "/assets/images/blog/post-6.jpg",
+    imageAlt: "Building your API stack",
     title: "Building your API stack",
     excerpt:
       "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
   },
   {
     id: 9,
-    image: "/assets/images/blog/img-01.jpg",
-    alt: "UX review presentations",
+    imageSrc: "/assets/images/blog/img-01.jpg",
+    imageAlt: "UX review presentations",
     title: "UX review presentations",
     excerpt:
       "Join the thousands of satisfied users and take your business to the next level today and the power.",
   },
   {
     id: 10,
-    image: "/assets/images/blog/img-02.jpg",
-    alt: "Migrating to Linear 101",
+    imageSrc: "/assets/images/blog/img-02.jpg",
+    imageAlt: "Migrating to Linear 101",
     title: "Migrating to Linear 101",
     excerpt:
       "Help you keep track of leads, contacts, and deals, making it easier to nurture and convert.",
+  },
+  {
+    id: 14,
+    category: "Strategy",
+    imageSrc: "/res1.jpg",
+    imageAlt: "Webflow SEO: Proven Strategies to Elevate Your Rankings",
+    title: "Webflow SEO: Proven Strategies to Elevate Your Rankings",
+    authorImgSrc: "/assets/images/avatars/02.png",
+    authorName: "David",
+    date: "Apr 3, 2024",
+  },
+  {
+    id: 15,
+    imageSrc: "/res2.png",
+    imageAlt: "Webflow vs WordPress: Which CMS is Right for You in 2025?",
+    title: "Webflow vs WordPress: Which CMS is Right for You in 2025?",
+    category: "Comparison",
+    authorImgSrc: "/assets/images/avatars/06.png",
+    authorName: "Allen",
+    date: "Apr 3, 2024",
+  },
+  {
+    id: 16,
+    category: "Webflow",
+    imageSrc: "/res3.jpg",
+    imageAlt: "Discover the Best Webflow Resources for Web Designers",
+    title: "Discover the Best Webflow Resources for Web Designers",
+    authorImgSrc: "/assets/images/avatars/01.png",
+    authorName: "Kevin",
+    date: "Apr 1, 2024",
   },
 ];
 
@@ -170,6 +200,7 @@ export const blogPosts = [
 ];
 
 export const blogPosts2 = [
+
   {
     id: 17,
     imageSrc: "/assets/images/blog/img-01.jpg",
@@ -260,6 +291,42 @@ export const blogPosts3 = [
 ];
 
 export const blogsPosts4 = [
+    {
+    id: 14,
+    category: "Strategy",
+    imgSrc: "/res1.jpg",
+    imgAlt: "Webflow SEO: Proven Strategies to Elevate Your Rankings",
+    imgCaption: "Top 5 reasons to invest in marketing",
+    title: "Webflow SEO: Proven Strategies to Elevate Your Rankings",
+     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
+    authorImgSrc: "/assets/images/avatars/02.png",
+    authorName: "David",
+    date: "Apr 3, 2024",
+  },
+  {
+    id: 15,
+    imgSrc: "/res2.png",
+    imgAlt: "Webflow vs WordPress: Which CMS is Right for You in 2025?",
+    imgCaption: "Top 5 reasons to invest in marketing",
+    title: "Webflow vs WordPress: Which CMS is Right for You in 2025?",
+     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
+    category: "Comparison",
+    authorImgSrc: "/assets/images/avatars/06.png",
+    authorName: "Allen",
+    date: "Apr 3, 2024",
+  },
+  {
+    id: 16,
+    category: "Webflow",
+    imgSrc: "/res3.jpg",
+    imgAlt: "Discover the Best Webflow Resources for Web Designers",
+     imgCaption: "Top 5 reasons to invest in marketing",
+    title: "Discover the Best Webflow Resources for Web Designers",
+     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
+    authorImgSrc: "/assets/images/avatars/01.png",
+    authorName: "Kevin",
+    date: "Apr 1, 2024",
+  },
   {
     id: 26,
     category: "Strategy",
