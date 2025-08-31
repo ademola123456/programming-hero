@@ -68,9 +68,9 @@ export default function CaseStudyCard() {
   return (
     <div
       id="features"
-      className="features section panel  scrollSpysection"
+      className="features section panel  py-8 lg:pt-9 xl:pt-6  scrollSpysection"
     >
-      <div className="section-outer panel py-6 lg:pt-8 xl:pt-6">
+      <div className="section-outer panel py-1">
         <div className="container max-w-100 bg-dark">
           <div
             className="panel vstack items-center gap-2 xl:gap-3 mb-4 lg:mb-8 max-w-100 mx-auto py-10 text-center "

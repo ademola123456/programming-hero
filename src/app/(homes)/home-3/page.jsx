@@ -13,6 +13,7 @@ import Brands3 from "@/components/common/Brands2";
 import Solution from "@/components/homes/home-3/Solution";
 import Success from "@/components/homes/home-3/Success";
 import Contact from "@/components/homes/home-3/Contact";
+import CoursesSection from "@/components/homes/home-3/CourseSection";
 export const metadata = {
   title:
     "Home || Brainwave - Expert design and Webflow development agency to help you scale to raise your success in digital goals.",
@@ -34,6 +35,7 @@ export default function HomePage3() {
           <Success />
           {/* <KeyFeatures /> */}
           {/* <Pricing /> */}
+          <CoursesSection />
           <Testimonials />
 
           <Blog />

@@ -175,28 +175,28 @@ export default function Hero() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h2 sm:h1 lg:display-6 xl:display-4 m-0">
-                Stunning Design & Webflow <br className="d-none lg:d-block" />{" "}
+                Stunning Design & <br className="d-none lg:d-block" />{" "}
                 Development for Startups
               </h1>
-              <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
+              <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-30">
                 Expert design and Webflow development agency to help you scale
                 to <br className="d-none sm:d-block" />
                 raise your success in digital goals.
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column pb-5">
                 <Link
-                  href={`/page-pricing`}
+                  href={`/page-contact`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
-                  Book An intro call
+                  Book an intro Call
                 </Link>
-                <a
-                  onClick={openContactModal}
+                <Link
+                  href={`/case-study`}
                   className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
                   data-uc-toggle=""
                 >
-                  Our work
-                </a>
+                  Explore Our Work
+                </Link>
               </div>
               <p className=""></p>
             </div>
